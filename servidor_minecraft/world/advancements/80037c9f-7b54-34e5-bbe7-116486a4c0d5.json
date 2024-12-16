@@ -1,712 +1,582 @@
 {
-  "securitycraft:recipes/misc/sentry": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_javelin": {
+  "minecraft:recipes/decorations/ladder": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_birch_fence_gate": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_crimson_fence_gate": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "spartanweaponry:recipes/cestus": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_helmet": {
+  "securitycraft:recipes/misc/motion_activated_light": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_jungle_fence_gate": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/grease_ball": {
+    "criteria": {
+      "has_meat": "2024-12-16 19:14:10 +0000"
     },
     "done": true
   },
   "create:root": {
     "criteria": {
-      "0": "2024-12-16 18:35:29 +0000"
+      "0": "2024-12-16 19:14:10 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/decorations/floor_trap": {
+  "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_heavy_crossbow": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_spruce_fence_gate": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-12-16 18:34:31 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/storage_module": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "unlock_right_away": "2024-12-16 19:13:24 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2024-12-16 18:42:13 +0000"
+      "has_lots_of_items": "2024-12-16 19:15:06 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/shears": {
+  "spartanweaponry:recipes/combat/pole_from_leather": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_packed_mud": {
+    "criteria": {
+      "has_wheat": "2024-12-16 19:18:44 +0000"
     },
     "done": true
   },
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
-      "has_book": "2024-12-16 18:35:30 +0000"
+      "has_book": "2024-12-16 19:15:03 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_warhammer": {
+  "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "in_water": "2024-12-16 19:15:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/iron_block": {
+  "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_string": "2024-12-16 19:19:07 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_parrying_dagger": {
+  "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/transportation/track_mine": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/andesite_alloy": {
-    "criteria": {
-      "has_item": "2024-12-16 18:42:24 +0000"
+      "in_water": "2024-12-16 19:15:33 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
-      "has_book": "2024-12-16 18:35:30 +0000"
+      "has_book": "2024-12-16 19:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-12-16 19:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-16 19:18:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-16 19:18:44 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_rapier": {
+  "securitycraft:recipes/misc/reinforced_acacia_fence": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/whitelist_module": {
+  "securitycraft:recipes/redstone/reinforced_bamboo_fence_gate": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_battleaxe": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_dagger": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/security_camera": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/hopper": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/briefcase": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_fence_gate": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "sophisticatedbackpacks:recipes/misc/backpack": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/electrified_iron_fence": {
+  "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_porkchop": "2024-12-16 19:14:10 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/keycard_lv5": {
+  "spartanweaponry:recipes/combat/handle_from_leather": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/keycard_lv3": {
+  "minecraft:recipes/decorations/campfire": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/keycard_lv4": {
+  "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/keycard_lv1": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/keycard_lv2": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_boots": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/lantern": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/mine": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_shovel": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/sonic_security_system": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "cold_sweat:root": {
     "criteria": {
-      "requirement": "2024-12-16 18:34:31 +0000"
+      "requirement": "2024-12-16 19:13:24 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/trophy_system": {
+  "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/iron_trapdoor": {
+  "securitycraft:recipes/redstone/reinforced_dark_oak_fence_gate": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_battle_hammer": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "in_water": "2024-12-16 19:15:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_string": "2024-12-16 19:19:07 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_spear": {
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_porkchop": "2024-12-16 19:14:10 +0000"
     },
     "done": true
   },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_saber": {
+  "securitycraft:recipes/misc/reinforced_birch_fence": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/speed_module": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
-      "has_gunpowder": "2024-12-16 18:42:34 +0000"
+      "has_gunpowder": "2024-12-16 19:14:11 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_dark_oak_fence": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_oak_fence": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "parcool:grant_parcool_guide": {
     "criteria": {
-      "tick": "2024-12-16 18:34:31 +0000"
+      "tick": "2024-12-16 19:13:24 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/camera_monitor": {
+  "securitycraft:recipes/redstone/reinforced_oak_fence_gate": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/redstone_module": {
+  "securitycraft:recipes/misc/reinforced_bamboo_fence": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/door_indestructible_iron_item": {
+  "securitycraft:recipes/misc/reinforced_crimson_fence": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/tools/universal_block_remover": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2024-12-16 18:43:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_leggings": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "in_water": "2024-12-16 19:15:33 +0000"
     },
     "done": true
   },
   "spartanweaponry:recipes/leather_longbow": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
     },
     "done": true
   },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/blacklist_module": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
-      "has_book": "2024-12-16 18:35:30 +0000"
+      "has_book": "2024-12-16 19:15:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_chestplate": {
+  "minecraft:recipes/combat/bow": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2024-12-16 18:36:26 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_quarterstaff": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/limited_use_keycard": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/bouncing_betty": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_halberd": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bucket": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_flanged_mace": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/disguise_module": {
-    "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_boomerang": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/minecart": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_hoe": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_katana": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_pike": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_string": "2024-12-16 19:19:07 +0000"
     },
     "done": true
   },
   "securitycraft:recipes/building_blocks/reinforced_chiseled_bookshelf": {
     "criteria": {
-      "has_book": "2024-12-16 18:35:30 +0000"
+      "has_book": "2024-12-16 19:15:03 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/redstone/block_change_detector": {
+  "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_string": "2024-12-16 19:19:07 +0000"
     },
     "done": true
   },
-  "minecraft:story/smelt_iron": {
+  "securitycraft:recipes/misc/reinforced_jungle_fence": {
     "criteria": {
-      "iron": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/schematics/schematic_and_quill": {
+  "securitycraft:recipes/misc/reinforced_warped_fence": {
     "criteria": {
-      "has_item": "2024-12-16 18:36:26 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/schematics/empty_schematic": {
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
-      "has_item": "2024-12-16 18:36:26 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_tomahawk": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chain": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_glaive": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_porkchop": "2024-12-16 19:14:10 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/chiseled_bookshelf": {
     "criteria": {
-      "has_book": "2024-12-16 18:35:30 +0000"
+      "has_book": "2024-12-16 19:15:03 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_longsword": {
+  "spartanweaponry:recipes/combat/pole_from_wool": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
-      "has_bone": "2024-12-16 18:42:13 +0000"
+      "has_bone": "2024-12-16 19:18:41 +0000"
     },
     "done": true
   },
   "securitycraft:recipes/building_blocks/reinforced_bookshelf": {
     "criteria": {
-      "has_book": "2024-12-16 18:35:30 +0000"
+      "has_book": "2024-12-16 19:15:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/smithing_table": {
+  "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "in_water": "2024-12-16 19:15:33 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/empty_blaze_burner": {
+  "securitycraft:recipes/redstone/reinforced_cherry_fence_gate": {
     "criteria": {
-      "has_item": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "minecraft:husbandry/root": {
     "criteria": {
-      "consumed_item": "2024-12-16 18:42:47 +0000"
+      "consumed_item": "2024-12-16 19:14:37 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_lance": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "in_water": "2024-12-16 19:15:33 +0000"
     },
     "done": true
   },
   "spartanweaponry:recipes/explosive_charge": {
     "criteria": {
-      "has_gunpowder": "2024-12-16 18:42:34 +0000"
+      "has_gunpowder": "2024-12-16 19:14:11 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/sand_paper": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "has_item": "2024-12-16 18:36:26 +0000"
+      "in_water": "2024-12-16 19:15:33 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_throwing_knife": {
+  "minecraft:recipes/misc/paper": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_reeds": "2024-12-16 19:15:55 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/handle_from_string": {
+    "criteria": {
+      "has_string": "2024-12-16 19:19:07 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_acacia_fence_gate": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "spartanweaponry:recipes/leather_heavy_crossbow": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_sword": {
+  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "in_water": "2024-12-16 19:15:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/iron_pickaxe": {
+  "securitycraft:recipes/misc/reinforced_cherry_fence": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/shield": {
+  "securitycraft:recipes/redstone/reinforced_warped_fence_gate": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/red_sand_paper": {
+  "spartanweaponry:recipes/combat/handle_from_wool": {
     "criteria": {
-      "has_item": "2024-12-16 18:36:26 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/iron_bars": {
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_sugar_cane": "2024-12-16 19:15:55 +0000"
     },
     "done": true
   },
   "spartanweaponry:recipes/quiver_compartment": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/harming_module": {
+  "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_longbow": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_greatsword": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "sophisticatedbackpacks:recipes/misc/upgrade_base": {
     "criteria": {
-      "has_leather": "2024-12-16 18:35:29 +0000"
+      "has_leather": "2024-12-16 19:16:06 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/misc/smart_module": {
+  "securitycraft:recipes/redstone/reinforced_mangrove_fence_gate": {
     "criteria": {
-      "has_iron": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/iron_axe": {
+  "securitycraft:recipes/misc/reinforced_mangrove_fence": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
-      "has_paper": "2024-12-16 18:36:26 +0000"
+      "has_string": "2024-12-16 19:19:07 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/iron_scythe": {
+  "spartanweaponry:recipes/combat/pole_from_string": {
     "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:taiga": "2024-12-16 18:37:05 +0000",
-      "minecraft:dripstone_caves": "2024-12-16 18:35:58 +0000",
-      "minecraft:forest": "2024-12-16 18:35:07 +0000",
-      "minecraft:meadow": "2024-12-16 18:34:37 +0000"
+      "minecraft:frozen_river": "2024-12-16 19:13:53 +0000",
+      "minecraft:beach": "2024-12-16 19:15:21 +0000",
+      "minecraft:river": "2024-12-16 19:14:39 +0000",
+      "minecraft:snowy_taiga": "2024-12-16 19:13:29 +0000",
+      "minecraft:forest": "2024-12-16 19:15:13 +0000"
+    },
+    "done": false
+  },
+  "spartanweaponry:recipes/combat/simple_handle": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2024-12-16 19:17:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "porkchop": "2024-12-16 19:17:11 +0000",
+      "cookie": "2024-12-16 19:14:37 +0000"
     },
     "done": false
   },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
-      "has_gunpowder": "2024-12-16 18:42:34 +0000"
+      "has_gunpowder": "2024-12-16 19:14:11 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/industrial_iron_block_from_ingots_iron_stonecutting": {
+  "minecraft:recipes/decorations/loom": {
     "criteria": {
-      "has_ingots_iron": "2024-12-16 18:42:24 +0000"
+      "has_string": "2024-12-16 19:19:07 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_spruce_fence": {
+    "criteria": {
+      "has_stick": "2024-12-16 19:14:48 +0000"
     },
     "done": true
   },
   "cold_sweat:recipes/thermometer": {
     "criteria": {
-      "temperature": "2024-12-16 18:42:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/iron_door": {
-    "criteria": {
-      "has_iron_ingot": "2024-12-16 18:42:24 +0000"
+      "temperature": "2024-12-16 19:13:27 +0000"
     },
     "done": true
   },
   "cold_sweat:extreme_temps": {
     "criteria": {
-      "requirement": "2024-12-16 18:42:37 +0000"
+      "requirement": "2024-12-16 19:13:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-16 19:15:33 +0000"
     },
     "done": true
   },
