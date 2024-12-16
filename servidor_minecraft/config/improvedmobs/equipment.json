@@ -1,0 +1,1980 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "minecraft:bow": [
+      7376,
+      4.508568
+    ],
+    "minecraft:crossbow": [
+      7670,
+      3.826627
+    ],
+    "minecraft:diamond_axe": [
+      7139,
+      5.022479
+    ],
+    "minecraft:diamond_sword": [
+      7201,
+      4.889481
+    ],
+    "minecraft:enchanted_book": [
+      8344,
+      1.8573177
+    ],
+    "minecraft:golden_axe": [
+      9800,
+      0.014399999
+    ],
+    "minecraft:golden_sword": [
+      9863,
+      0.0081
+    ],
+    "minecraft:iron_axe": [
+      9367,
+      0.51635593
+    ],
+    "minecraft:iron_sword": [
+      9454,
+      0.049
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      8444,
+      1.7269388
+    ],
+    "minecraft:netherite_axe": [
+      6303,
+      6.778693
+    ],
+    "minecraft:netherite_sword": [
+      6373,
+      6.632802
+    ],
+    "minecraft:snowball": [
+      9394,
+      0.46844563
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      8444,
+      1.7269388
+    ],
+    "minecraft:stone_axe": [
+      9570,
+      0.0374
+    ],
+    "minecraft:stone_sword": [
+      9678,
+      0.026599998
+    ],
+    "minecraft:tnt": [
+      8244,
+      1.9881918
+    ],
+    "minecraft:trident": [
+      7444,
+      4.357304
+    ],
+    "minecraft:wooden_axe": [
+      9754,
+      0.019
+    ],
+    "minecraft:wooden_sword": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:aluminum_battle_hammer": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_battleaxe": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_dagger": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_flanged_mace": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_glaive": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_greatsword": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_halberd": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_heavy_crossbow": [
+      7400,
+      4.4554486
+    ],
+    "spartanweaponry:aluminum_katana": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_lance": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_longbow": [
+      6544,
+      6.2760043
+    ],
+    "spartanweaponry:aluminum_longsword": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_parrying_dagger": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_pike": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_quarterstaff": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_rapier": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_saber": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_scythe": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_spear": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:aluminum_warhammer": [
+      9197,
+      0.7555575
+    ],
+    "spartanweaponry:bronze_battle_hammer": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_battleaxe": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_dagger": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_flanged_mace": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_glaive": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_greatsword": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_halberd": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_heavy_crossbow": [
+      7640,
+      3.901049
+    ],
+    "spartanweaponry:bronze_katana": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_lance": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_longbow": [
+      6864,
+      5.6053925
+    ],
+    "spartanweaponry:bronze_longsword": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_parrying_dagger": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_pike": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_quarterstaff": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_rapier": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_saber": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_scythe": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_spear": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:bronze_warhammer": [
+      9335,
+      0.56615794
+    ],
+    "spartanweaponry:cestus": [
+      9700,
+      0.0244
+    ],
+    "spartanweaponry:constantan_battle_hammer": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_battleaxe": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_dagger": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_flanged_mace": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_glaive": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_greatsword": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_halberd": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_heavy_crossbow": [
+      7700,
+      3.7501225
+    ],
+    "spartanweaponry:constantan_katana": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_lance": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_longbow": [
+      6944,
+      5.4367094
+    ],
+    "spartanweaponry:constantan_longsword": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_parrying_dagger": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_pike": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_quarterstaff": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_rapier": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_saber": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_scythe": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_spear": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:constantan_warhammer": [
+      9364,
+      0.5212574
+    ],
+    "spartanweaponry:copper_battle_hammer": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_battleaxe": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_dagger": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_flanged_mace": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_glaive": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_greatsword": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_halberd": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_heavy_crossbow": [
+      8000,
+      2.3095384
+    ],
+    "spartanweaponry:copper_katana": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_lance": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_longbow": [
+      7344,
+      4.579
+    ],
+    "spartanweaponry:copper_longsword": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_parrying_dagger": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_pike": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_quarterstaff": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_rapier": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_saber": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_scythe": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_spear": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:copper_warhammer": [
+      9550,
+      0.039399996
+    ],
+    "spartanweaponry:diamond_battle_hammer": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_battleaxe": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_dagger": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_flanged_mace": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_glaive": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_greatsword": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_halberd": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_heavy_crossbow": [
+      3918,
+      11.759822
+    ],
+    "spartanweaponry:diamond_katana": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_lance": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_longbow": [
+      1900,
+      16.024796
+    ],
+    "spartanweaponry:diamond_longsword": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_parrying_dagger": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_pike": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_quarterstaff": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_rapier": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_saber": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_scythe": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_spear": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:diamond_warhammer": [
+      7201,
+      4.889481
+    ],
+    "spartanweaponry:electrum_battle_hammer": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_battleaxe": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_dagger": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_flanged_mace": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_glaive": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_greatsword": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_halberd": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_heavy_crossbow": [
+      8060,
+      2.2302608
+    ],
+    "spartanweaponry:electrum_katana": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_lance": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_longbow": [
+      7424,
+      4.402046
+    ],
+    "spartanweaponry:electrum_longsword": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_parrying_dagger": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_pike": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_quarterstaff": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_rapier": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_saber": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_scythe": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_spear": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:electrum_warhammer": [
+      9573,
+      0.0371
+    ],
+    "spartanweaponry:golden_battle_hammer": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_battleaxe": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_dagger": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_flanged_mace": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_glaive": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_greatsword": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_halberd": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_heavy_crossbow": [
+      8504,
+      1.6489512
+    ],
+    "spartanweaponry:golden_katana": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_lance": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_longbow": [
+      8016,
+      2.2883818
+    ],
+    "spartanweaponry:golden_longsword": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_parrying_dagger": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_pike": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_quarterstaff": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_rapier": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_saber": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_scythe": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_spear": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:golden_warhammer": [
+      9863,
+      0.0081
+    ],
+    "spartanweaponry:invar_battle_hammer": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_battleaxe": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_dagger": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_flanged_mace": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_glaive": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_greatsword": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_halberd": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_heavy_crossbow": [
+      7280,
+      4.718714
+    ],
+    "spartanweaponry:invar_katana": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_lance": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_longbow": [
+      6384,
+      6.6098695
+    ],
+    "spartanweaponry:invar_longsword": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_parrying_dagger": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_pike": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_quarterstaff": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_rapier": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_saber": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_scythe": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_spear": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:invar_warhammer": [
+      9126,
+      0.8480387
+    ],
+    "spartanweaponry:iron_battle_hammer": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_battleaxe": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_dagger": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_flanged_mace": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_glaive": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_greatsword": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_halberd": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_heavy_crossbow": [
+      7850,
+      3.2997048
+    ],
+    "spartanweaponry:iron_katana": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_lance": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_longbow": [
+      7144,
+      5.0117817
+    ],
+    "spartanweaponry:iron_longsword": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_parrying_dagger": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_pike": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_quarterstaff": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_rapier": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_saber": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_scythe": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_spear": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:iron_warhammer": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:lead_battle_hammer": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_battleaxe": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_dagger": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_flanged_mace": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_glaive": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_greatsword": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_halberd": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_heavy_crossbow": [
+      7880,
+      3.1730883
+    ],
+    "spartanweaponry:lead_katana": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_lance": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_longbow": [
+      7184,
+      4.926028
+    ],
+    "spartanweaponry:lead_longsword": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_parrying_dagger": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_pike": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_quarterstaff": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_rapier": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_saber": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_scythe": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_spear": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:lead_warhammer": [
+      9471,
+      0.0473
+    ],
+    "spartanweaponry:leather_heavy_crossbow": [
+      8216,
+      2.024924
+    ],
+    "spartanweaponry:leather_longbow": [
+      7632,
+      3.9205995
+    ],
+    "spartanweaponry:netherite_battle_hammer": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_battleaxe": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_dagger": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_flanged_mace": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_glaive": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_greatsword": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_halberd": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_heavy_crossbow": [
+      2508,
+      14.734736
+    ],
+    "spartanweaponry:netherite_katana": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_lance": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_longbow": [
+      20,
+      20.0388
+    ],
+    "spartanweaponry:netherite_longsword": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_parrying_dagger": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_pike": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_quarterstaff": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_rapier": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_saber": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_scythe": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_spear": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:netherite_warhammer": [
+      6373,
+      6.632802
+    ],
+    "spartanweaponry:nickel_battle_hammer": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_battleaxe": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_dagger": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_flanged_mace": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_glaive": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_greatsword": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_halberd": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_heavy_crossbow": [
+      8000,
+      2.3095384
+    ],
+    "spartanweaponry:nickel_katana": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_lance": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_longbow": [
+      7344,
+      4.579
+    ],
+    "spartanweaponry:nickel_longsword": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_parrying_dagger": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_pike": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_quarterstaff": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_rapier": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_saber": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_scythe": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_spear": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:nickel_warhammer": [
+      9539,
+      0.040499996
+    ],
+    "spartanweaponry:platinum_battle_hammer": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_battleaxe": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_dagger": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_flanged_mace": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_glaive": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_greatsword": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_halberd": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_heavy_crossbow": [
+      5528,
+      8.392377
+    ],
+    "spartanweaponry:platinum_katana": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_lance": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_longbow": [
+      4048,
+      11.486773
+    ],
+    "spartanweaponry:platinum_longsword": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_parrying_dagger": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_pike": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_quarterstaff": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_rapier": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_saber": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_scythe": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_spear": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:platinum_warhammer": [
+      8100,
+      2.1775014
+    ],
+    "spartanweaponry:silver_battle_hammer": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_battleaxe": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_dagger": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_flanged_mace": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_glaive": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_greatsword": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_halberd": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_heavy_crossbow": [
+      8456,
+      1.7113268
+    ],
+    "spartanweaponry:silver_katana": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_lance": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_longbow": [
+      7952,
+      2.373078
+    ],
+    "spartanweaponry:silver_longsword": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_parrying_dagger": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_pike": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_quarterstaff": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_rapier": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_saber": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_scythe": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_spear": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:silver_warhammer": [
+      9809,
+      0.0135
+    ],
+    "spartanweaponry:steel_battle_hammer": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_battleaxe": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_dagger": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_flanged_mace": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_glaive": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_greatsword": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_halberd": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_heavy_crossbow": [
+      7160,
+      4.977518
+    ],
+    "spartanweaponry:steel_katana": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_lance": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_longbow": [
+      6224,
+      6.943264
+    ],
+    "spartanweaponry:steel_longsword": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_parrying_dagger": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_pike": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_quarterstaff": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_rapier": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_saber": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_scythe": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_spear": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:steel_warhammer": [
+      9051,
+      0.9447028
+    ],
+    "spartanweaponry:stone_battle_hammer": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_battleaxe": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_dagger": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_flanged_mace": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_glaive": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_greatsword": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_halberd": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_katana": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_lance": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_longsword": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_parrying_dagger": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_pike": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_quarterstaff": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_rapier": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_saber": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_scythe": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_spear": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:stone_warhammer": [
+      9678,
+      0.026599998
+    ],
+    "spartanweaponry:studded_cestus": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:studded_club": [
+      9454,
+      0.049
+    ],
+    "spartanweaponry:tin_battle_hammer": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_battleaxe": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_dagger": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_flanged_mace": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_glaive": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_greatsword": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_halberd": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_heavy_crossbow": [
+      8060,
+      2.2302608
+    ],
+    "spartanweaponry:tin_katana": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_lance": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_longbow": [
+      7424,
+      4.402046
+    ],
+    "spartanweaponry:tin_longsword": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_parrying_dagger": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_pike": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_quarterstaff": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_rapier": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_saber": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_scythe": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_spear": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:tin_warhammer": [
+      9579,
+      0.0365
+    ],
+    "spartanweaponry:wooden_battle_hammer": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_battleaxe": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_club": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_dagger": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_flanged_mace": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_glaive": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_greatsword": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_halberd": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_heavy_crossbow": [
+      8424,
+      1.7529747
+    ],
+    "spartanweaponry:wooden_katana": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_lance": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_longbow": [
+      7908,
+      3.0128984
+    ],
+    "spartanweaponry:wooden_longsword": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_parrying_dagger": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_pike": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_quarterstaff": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_rapier": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_saber": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_scythe": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_spear": [
+      9817,
+      0.0127
+    ],
+    "spartanweaponry:wooden_warhammer": [
+      9817,
+      0.0127
+    ],
+    "zombie_extreme:baseball_bat": [
+      9386,
+      0.4835412
+    ],
+    "zombie_extreme:bronze_axe": [
+      9764,
+      0.018
+    ],
+    "zombie_extreme:butcher_knife": [
+      9351,
+      0.54186976
+    ],
+    "zombie_extreme:buzz_killer": [
+      5570,
+      8.304887
+    ],
+    "zombie_extreme:cleaver": [
+      9545,
+      0.039899997
+    ],
+    "zombie_extreme:crowbar": [
+      9261,
+      0.670341
+    ],
+    "zombie_extreme:electric_katana": [
+      7925,
+      2.8587115
+    ],
+    "zombie_extreme:electro_machete": [
+      6895,
+      5.540094
+    ],
+    "zombie_extreme:fireaxe": [
+      9060,
+      0.93313384
+    ],
+    "zombie_extreme:fittings": [
+      9773,
+      0.017099999
+    ],
+    "zombie_extreme:frying_pan": [
+      9465,
+      0.0479
+    ],
+    "zombie_extreme:golf_club": [
+      9528,
+      0.041599996
+    ],
+    "zombie_extreme:katana": [
+      7352,
+      4.561431
+    ],
+    "zombie_extreme:kitchen_knife": [
+      9769,
+      0.0175
+    ],
+    "zombie_extreme:last_hope": [
+      6382,
+      6.6140394
+    ],
+    "zombie_extreme:m_9_knife": [
+      7508,
+      4.2123923
+    ],
+    "zombie_extreme:machete": [
+      8154,
+      2.1063945
+    ],
+    "zombie_extreme:military_machete": [
+      7454,
+      4.334844
+    ],
+    "zombie_extreme:modern_axe": [
+      8803,
+      1.2628816
+    ],
+    "zombie_extreme:modern_love": [
+      7646,
+      3.886309
+    ],
+    "zombie_extreme:pipe": [
+      9477,
+      0.0467
+    ],
+    "zombie_extreme:police_baton": [
+      9538,
+      0.040599998
+    ],
+    "zombie_extreme:steel_axe": [
+      8687,
+      1.4121808
+    ],
+    "zombie_extreme:steel_sledgehammer": [
+      6538,
+      6.2885356
+    ],
+    "zombie_extreme:stun_stick": [
+      9362,
+      0.5244919
+    ],
+    "zombie_extreme:titan_axe": [
+      6922,
+      5.4831543
+    ],
+    "zombie_extreme:wrench": [
+      9609,
+      0.033499997
+    ]
+  },
+  "OFFHAND": {
+    "minecraft:ender_pearl": [
+      675,
+      1.2102311
+    ],
+    "minecraft:flint_and_steel": [
+      647,
+      1.2461817
+    ],
+    "minecraft:lava_bucket": [
+      275,
+      1.7269388
+    ],
+    "minecraft:shield": [
+      353,
+      1.6255897
+    ]
+  },
+  "FEET": {
+    "cold_sweat:goat_fur_boots": [
+      5168,
+      0.7212403
+    ],
+    "cold_sweat:hoglin_hooves": [
+      4641,
+      1.4005771
+    ],
+    "create:copper_diving_boots": [
+      5315,
+      0.5113901
+    ],
+    "create:netherite_diving_boots": [
+      4254,
+      1.9030677
+    ],
+    "minecraft:chainmail_boots": [
+      5297,
+      0.540316
+    ],
+    "minecraft:diamond_boots": [
+      4381,
+      1.7373508
+    ],
+    "minecraft:golden_boots": [
+      5363,
+      0.4136078
+    ],
+    "minecraft:iron_boots": [
+      5049,
+      0.8764657
+    ],
+    "minecraft:leather_boots": [
+      5645,
+      0.0244
+    ],
+    "minecraft:netherite_boots": [
+      4254,
+      1.9030677
+    ],
+    "zombie_extreme:camouflage_suit_forest_boots": [
+      5515,
+      0.0374
+    ],
+    "zombie_extreme:combat_armor_boots": [
+      4113,
+      2.087982
+    ],
+    "zombie_extreme:exo_suit_boots": [
+      61,
+      11.34403
+    ],
+    "zombie_extreme:hazmat_suit_boots": [
+      4664,
+      1.3709393
+    ],
+    "zombie_extreme:juggernaut_suit_boots": [
+      2129,
+      7.0265665
+    ],
+    "zombie_extreme:military_suit_boots": [
+      4149,
+      2.0406785
+    ],
+    "zombie_extreme:swat_suit_boots": [
+      4670,
+      1.3632114
+    ]
+  },
+  "LEGS": {
+    "cold_sweat:goat_fur_pants": [
+      5168,
+      0.7212403
+    ],
+    "cold_sweat:hoglin_trousers": [
+      4641,
+      1.4005771
+    ],
+    "minecraft:chainmail_leggings": [
+      5297,
+      0.540316
+    ],
+    "minecraft:diamond_leggings": [
+      4381,
+      1.7373508
+    ],
+    "minecraft:golden_leggings": [
+      5363,
+      0.4136078
+    ],
+    "minecraft:iron_leggings": [
+      5049,
+      0.8764657
+    ],
+    "minecraft:leather_leggings": [
+      5645,
+      0.0244
+    ],
+    "minecraft:netherite_leggings": [
+      4254,
+      1.9030677
+    ],
+    "zombie_extreme:camouflage_suit_forest_leggings": [
+      5515,
+      0.0374
+    ],
+    "zombie_extreme:combat_armor_leggings": [
+      4113,
+      2.087982
+    ],
+    "zombie_extreme:exo_suit_leggings": [
+      61,
+      11.34403
+    ],
+    "zombie_extreme:hazmat_suit_leggings": [
+      4664,
+      1.3709393
+    ],
+    "zombie_extreme:juggernaut_suit_leggings": [
+      2129,
+      7.0265665
+    ],
+    "zombie_extreme:military_suit_leggings": [
+      4149,
+      2.0406785
+    ],
+    "zombie_extreme:swat_suit_leggings": [
+      4670,
+      1.3632114
+    ]
+  },
+  "CHEST": {
+    "cold_sweat:goat_fur_parka": [
+      5168,
+      0.7212403
+    ],
+    "cold_sweat:hoglin_tunic": [
+      4641,
+      1.4005771
+    ],
+    "create:copper_backtank": [
+      5315,
+      0.5113901
+    ],
+    "create:netherite_backtank": [
+      4254,
+      1.9030677
+    ],
+    "minecraft:chainmail_chestplate": [
+      5297,
+      0.540316
+    ],
+    "minecraft:diamond_chestplate": [
+      4381,
+      1.7373508
+    ],
+    "minecraft:golden_chestplate": [
+      5363,
+      0.4136078
+    ],
+    "minecraft:iron_chestplate": [
+      5049,
+      0.8764657
+    ],
+    "minecraft:leather_chestplate": [
+      5645,
+      0.0244
+    ],
+    "minecraft:netherite_chestplate": [
+      4254,
+      1.9030677
+    ],
+    "zombie_extreme:camouflage_suit_forest_chestplate": [
+      5515,
+      0.0374
+    ],
+    "zombie_extreme:civilian_suit_chestplate": [
+      5208,
+      0.6676297
+    ],
+    "zombie_extreme:combat_armor_chestplate": [
+      4113,
+      2.087982
+    ],
+    "zombie_extreme:exo_suit_chestplate": [
+      61,
+      11.34403
+    ],
+    "zombie_extreme:hazmat_suit_chestplate": [
+      4664,
+      1.3709393
+    ],
+    "zombie_extreme:juggernaut_suit_chestplate": [
+      2129,
+      7.0265665
+    ],
+    "zombie_extreme:military_suit_chestplate": [
+      4149,
+      2.0406785
+    ],
+    "zombie_extreme:police_suit_chestplate": [
+      4916,
+      1.047363
+    ],
+    "zombie_extreme:swat_suit_chestplate": [
+      4670,
+      1.3632114
+    ]
+  },
+  "HEAD": {
+    "cold_sweat:goat_fur_cap": [
+      5163,
+      0.7212403
+    ],
+    "cold_sweat:hoglin_headpiece": [
+      4636,
+      1.4005771
+    ],
+    "create:copper_diving_helmet": [
+      5310,
+      0.5113901
+    ],
+    "create:netherite_diving_helmet": [
+      4249,
+      1.9030677
+    ],
+    "minecraft:chainmail_helmet": [
+      5292,
+      0.540316
+    ],
+    "minecraft:diamond_helmet": [
+      4376,
+      1.7373508
+    ],
+    "minecraft:golden_helmet": [
+      5358,
+      0.4136078
+    ],
+    "minecraft:iron_helmet": [
+      5044,
+      0.8764657
+    ],
+    "minecraft:leather_helmet": [
+      5640,
+      0.0244
+    ],
+    "minecraft:netherite_helmet": [
+      4249,
+      1.9030677
+    ],
+    "minecraft:turtle_helmet": [
+      4988,
+      0.948558
+    ],
+    "zombie_extreme:berret_helmet": [
+      5660,
+      0.0224
+    ],
+    "zombie_extreme:black_ops_glasses_helmet": [
+      4967,
+      0.9755281
+    ],
+    "zombie_extreme:camouflage_suit_forest_helmet": [
+      5510,
+      0.0374
+    ],
+    "zombie_extreme:civilian_suit_helmet": [
+      5203,
+      0.6676297
+    ],
+    "zombie_extreme:combat_armor_helmet": [
+      4108,
+      2.087982
+    ],
+    "zombie_extreme:exo_suit_helmet": [
+      56,
+      11.34403
+    ],
+    "zombie_extreme:gas_mask_helmet": [
+      5645,
+      0.023899999
+    ],
+    "zombie_extreme:hazmat_suit_helmet": [
+      4659,
+      1.3709393
+    ],
+    "zombie_extreme:juggernaut_suit_helmet": [
+      2124,
+      7.0265665
+    ],
+    "zombie_extreme:military_suit_helmet": [
+      4144,
+      2.0406785
+    ],
+    "zombie_extreme:night_vision_glasses_helmet": [
+      5560,
+      0.0324
+    ],
+    "zombie_extreme:police_suit_helmet": [
+      4911,
+      1.047363
+    ],
+    "zombie_extreme:swat_suit_helmet": [
+      4665,
+      1.3632114
+    ]
+  }
+}
