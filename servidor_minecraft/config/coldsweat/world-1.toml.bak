@@ -134,4 +134,11 @@
 
 #Format: [season-start, season-mid, season-end, *units]
 #First 3 parameters: The temperature offset at the start, middle, and end of the season
-#units: (Opti
+#units: (Optional) The unit of temperature (C, F, or MC)
+#Applied as an offset to the world's temperature
+["Season Temperatures"]
+	Summer = [0.4, 0.6, 0.4]
+	Autumn = [0.2, 0, -0.2]
+	Winter = [-0.4, -0.6, -0.4]
+	Spring = [-0.2, 0, 0.2]
+
