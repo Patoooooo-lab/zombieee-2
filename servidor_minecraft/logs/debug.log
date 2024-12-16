@@ -7504,3 +7504,26 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [16Dec2024 18:34:33.599] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3522ms or 70 ticks behind
 [16Dec2024 18:34:34.674] [Server thread/DEBUG] [mixin/]: Mixing MixinFluidBucketWrapper from thirst.mixin.json into net.minecraftforge.fluids.capability.wrappers.FluidBucketWrapper
 [16Dec2024 18:35:01.041] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12464ms or 249 ticks behind
+[16Dec2024 18:35:47.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 died
+[16Dec2024 18:36:07.313] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Patobich007: Location (175.32976520061493, 77.625, 9.178363054990768) too far away from hit block BlockPos{x=175, y=76, z=9}.
+[16Dec2024 18:36:09.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Patobich007: Location (175.62106031179428, 77.625, 9.898981809616089) too far away from hit block BlockPos{x=175, y=76, z=9}.
+[16Dec2024 18:36:09.334] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Patobich007: Location (175.62106031179428, 77.625, 9.898981809616089) too far away from hit block BlockPos{x=175, y=76, z=9}.
+[16Dec2024 18:38:29.391] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Dec2024 18:38:29.484] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Dec2024 18:41:02.985] [Server thread/DEBUG] [mixin/]: Mixing pathfinding.SwimNodeEvaluatorMixin from improvedmobs.mixins.json into net.minecraft.world.level.pathfinder.SwimNodeEvaluator
+[16Dec2024 18:41:02.989] [Server thread/DEBUG] [mixin/]: improvedmobs.mixins.json:pathfinding.SwimNodeEvaluatorMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Dec2024 18:41:02.991] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$breakableNodes$2(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/pathfinder/Node; to mdc81c9c$lambda$breakableNodes$2$0 in improvedmobs.mixins.json:pathfinding.SwimNodeEvaluatorMixin
+[16Dec2024 18:41:02.993] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$breakableNodes$1(Lnet/minecraft/world/phys/AABB;)Ljava/lang/Boolean; to mdc81c9c$lambda$breakableNodes$1$1 in improvedmobs.mixins.json:pathfinding.SwimNodeEvaluatorMixin
+[16Dec2024 18:41:02.994] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$breakableNodes$0(Lnet/minecraft/world/phys/AABB;Ljava/lang/Object;)Z to mdc81c9c$lambda$breakableNodes$0$2 in improvedmobs.mixins.json:pathfinding.SwimNodeEvaluatorMixin
+[16Dec2024 18:42:20.462] [Server thread/DEBUG] [mixin/]: Mixing MixinPiglinAi from hordes.mixin.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[16Dec2024 18:42:20.484] [Server thread/DEBUG] [mixin/]: Mixing MixinPiglinAi from curios.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[16Dec2024 18:42:24.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 has made the advancement [Acquire Hardware]
+[16Dec2024 18:42:37.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 has made the advancement [Inhospitable]
+[16Dec2024 18:43:29.302] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Dec2024 18:43:29.310] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Dec2024 18:43:51.913] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[16Dec2024 18:43:56.903] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[16Dec2024 18:43:59.094] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[16Dec2024 18:43:59.106] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted EnchantmentHelper.getSweepingDamageRatio() method!
+[16Dec2024 18:44:02.356] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[16Dec2024 18:44:03.443] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
