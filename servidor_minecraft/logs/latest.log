@@ -1,59 +1,59 @@
-[18Dec2024 03:33:04.652] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[18Dec2024 03:33:04.656] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[18Dec2024 03:33:05.341] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[18Dec2024 03:33:05.414] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/zombieee-2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[18Dec2024 03:33:06.052] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[18Dec2024 03:33:06.055] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[18Dec2024 03:33:06.059] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[18Dec2024 03:33:06.061] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[18Dec2024 03:33:06.934] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[18Dec2024 03:33:06.949] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[18Dec2024 03:33:11.308] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[18Dec2024 03:33:11.489] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[18Dec2024 03:33:11.801] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Dec2024 03:33:13.448] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
-[18Dec2024 03:33:13.456] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:accessors.brewinandchewin.KegBlockEntityAccessor
-[18Dec2024 03:33:13.458] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/SyncedBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity)
-[18Dec2024 03:33:13.458] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity was not found thirst.mixin.json:accessors.farmersdelight.SyncedBlockEntityAccessor
-[18Dec2024 03:33:13.459] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
-[18Dec2024 03:33:13.459] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:brewinandchewin.MixinKegBlockEntity
-[18Dec2024 03:33:13.478] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/entity/KettleBlockEntity (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.entity.KettleBlockEntity)
-[18Dec2024 03:33:13.479] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.entity.KettleBlockEntity was not found thirst.mixin.json:farmersrespite.MixinKettleBlockEntity
-[18Dec2024 03:33:13.480] [main/WARN] [mixin/]: Error loading class: snownee/jade/api/view/FluidView (java.lang.ClassNotFoundException: snownee.jade.api.view.FluidView)
-[18Dec2024 03:33:13.484] [main/WARN] [mixin/]: @Mixin target snownee.jade.api.view.FluidView was not found thirst.mixin.json:jade.MixinFluidView
-[18Dec2024 03:33:13.485] [main/WARN] [mixin/]: Error loading class: toughasnails/item/EmptyCanteenItem (java.lang.ClassNotFoundException: toughasnails.item.EmptyCanteenItem)
-[18Dec2024 03:33:13.485] [main/WARN] [mixin/]: @Mixin target toughasnails.item.EmptyCanteenItem was not found thirst.mixin.json:toughasnails.MixinEmptyCanteenItem
-[18Dec2024 03:33:13.486] [main/WARN] [mixin/]: Error loading class: toughasnails/config/ThirstConfig (java.lang.ClassNotFoundException: toughasnails.config.ThirstConfig)
-[18Dec2024 03:33:13.487] [main/WARN] [mixin/]: @Mixin target toughasnails.config.ThirstConfig was not found thirst.mixin.json:toughasnails.MixinServerConfig
-[18Dec2024 03:33:13.488] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHandler (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHandler)
-[18Dec2024 03:33:13.488] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHandler was not found thirst.mixin.json:toughasnails.MixinThirstHandler
-[18Dec2024 03:33:13.494] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHelperImpl (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHelperImpl)
-[18Dec2024 03:33:13.495] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHelperImpl was not found thirst.mixin.json:toughasnails.MixinThirstHelperImpl
-[18Dec2024 03:33:13.496] [main/WARN] [mixin/]: Error loading class: toughasnails/client/handler/TooltipHandler (java.lang.ClassNotFoundException: toughasnails.client.handler.TooltipHandler)
-[18Dec2024 03:33:13.497] [main/WARN] [mixin/]: @Mixin target toughasnails.client.handler.TooltipHandler was not found thirst.mixin.json:toughasnails.MixinTooltipHandler
-[18Dec2024 03:33:13.576] [main/WARN] [mixin/]: Error loading class: com/mrbysco/spoiled/config/SpoiledConfigCache (java.lang.ClassNotFoundException: com.mrbysco.spoiled.config.SpoiledConfigCache)
-[18Dec2024 03:33:13.577] [main/WARN] [mixin/]: @Mixin target com.mrbysco.spoiled.config.SpoiledConfigCache was not found cold_sweat.mixin.json:compat.MixinSpoiledIcebox$ContainerModifier
-[18Dec2024 03:33:14.114] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[18Dec2024 03:33:24.807] [main/WARN] [mixin/]: @Final field f_26027_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions; in guardvillagers.mixins.json:DefendVillageGoalGolemMixin should be final
-[18Dec2024 03:33:27.715] [modloading-worker-0/INFO] [unionlib/]: Starting up: unionlib
-[18Dec2024 03:33:28.390] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[18Dec2024 03:33:28.611] [modloading-worker-0/INFO] [hordes/]: Trying to load common config
-[18Dec2024 03:33:28.618] [modloading-worker-0/INFO] [hordes/]: Trying to load client config
-[18Dec2024 03:33:28.623] [modloading-worker-0/INFO] [hordes/]: Config files are up to date, skipping data/asset generation
-[18Dec2024 03:33:28.721] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[18Dec2024 03:33:28.721] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[18Dec2024 03:33:28.759] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[18Dec2024 03:33:28.760] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[18Dec2024 03:33:31.050] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
-[18Dec2024 03:33:31.055] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
-[18Dec2024 03:33:31.058] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
-[18Dec2024 03:33:37.841] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/zombieee-2/servidor_minecraft/config/coldsweat/world.toml is not correct. Correcting
-[18Dec2024 03:33:37.846] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Blocks.Block Temperatures was corrected from [[cold_sweat:boiler, 0.27, 7, mc, 0.88, lit=true, , 4], [cold_sweat:icebox, -0.27, 7, mc, 0.88, frosted=true, , 0], [minecraft:fire, 0.476, 7, mc, 0.9, , , 8], [#minecraft:campfires, 0.476, 7, mc, 0.9, lit=true,  , 8], [minecraft:magma_block, 0.25, 3, mc, 1.0], [minecraft:lava_cauldron, 0.5, 7, mc, 1.5], [minecraft:ice, -0.15, 4, mc, 0.6, , , -0.7], [minecraft:packed_ice, -0.25, 4, mc, 1.0, , , -0.7], [minecraft:blue_ice, -0.35, 4, mc, 1.4, , , -0.7], [#minecraft:ice, -0.15, 4, mc, 0.6, , , -0.7]] to its default, [[cold_sweat:boiler, 0.27, 7, mc, 0.88, lit=true, , 4], [cold_sweat:icebox, -0.27, 7, mc, 0.88, frosted=true, , 0], [minecraft:fire, 0.476, 7, mc, 0.9, , , 8], [#minecraft:campfires, 0.476, 7, mc, 0.9, lit=true,  , 8], [minecraft:magma_block, 0.25, 3, mc, 1.0], [minecraft:lava_cauldron, 0.5, 7, mc, 1.5], [minecraft:ice, -0.15, 4, mc, 0.6, , , -0.7], [minecraft:packed_ice, -0.25, 4, mc, 1.0, , , -0.7], [minecraft:blue_ice, -0.35, 4, mc, 1.4, , , -0.7], [#minecraft:ice, -0.15, 4, mc, 0.6, , , -0.7]]. 
-[18Dec2024 03:33:37.849] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/zombieee-2/servidor_minecraft/config/coldsweat/world.toml is not correct. Correcting
-[18Dec2024 03:33:38.393] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rpgz] Starting version check at https://raw.githubusercontent.com/Globox1997/RpgZ/master/update.json
-[18Dec2024 03:33:38.678] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
-[18Dec2024 03:33:38.753] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
-[18Dec2024 03:33:38.758] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[18Dec2024 04:06:23.396] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[18Dec2024 04:06:23.400] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[18Dec2024 04:06:24.914] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18Dec2024 04:06:25.005] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/zombieee-2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[18Dec2024 04:06:25.478] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[18Dec2024 04:06:25.480] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[18Dec2024 04:06:25.481] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[18Dec2024 04:06:25.482] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[18Dec2024 04:06:25.901] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[18Dec2024 04:06:25.904] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[18Dec2024 04:06:29.830] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Dec2024 04:06:30.014] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[18Dec2024 04:06:30.430] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Dec2024 04:06:31.989] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[18Dec2024 04:06:31.995] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:accessors.brewinandchewin.KegBlockEntityAccessor
+[18Dec2024 04:06:31.999] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/SyncedBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity)
+[18Dec2024 04:06:32.000] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity was not found thirst.mixin.json:accessors.farmersdelight.SyncedBlockEntityAccessor
+[18Dec2024 04:06:32.003] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[18Dec2024 04:06:32.004] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:brewinandchewin.MixinKegBlockEntity
+[18Dec2024 04:06:32.018] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/entity/KettleBlockEntity (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.entity.KettleBlockEntity)
+[18Dec2024 04:06:32.019] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.entity.KettleBlockEntity was not found thirst.mixin.json:farmersrespite.MixinKettleBlockEntity
+[18Dec2024 04:06:32.020] [main/WARN] [mixin/]: Error loading class: snownee/jade/api/view/FluidView (java.lang.ClassNotFoundException: snownee.jade.api.view.FluidView)
+[18Dec2024 04:06:32.020] [main/WARN] [mixin/]: @Mixin target snownee.jade.api.view.FluidView was not found thirst.mixin.json:jade.MixinFluidView
+[18Dec2024 04:06:32.022] [main/WARN] [mixin/]: Error loading class: toughasnails/item/EmptyCanteenItem (java.lang.ClassNotFoundException: toughasnails.item.EmptyCanteenItem)
+[18Dec2024 04:06:32.022] [main/WARN] [mixin/]: @Mixin target toughasnails.item.EmptyCanteenItem was not found thirst.mixin.json:toughasnails.MixinEmptyCanteenItem
+[18Dec2024 04:06:32.023] [main/WARN] [mixin/]: Error loading class: toughasnails/config/ThirstConfig (java.lang.ClassNotFoundException: toughasnails.config.ThirstConfig)
+[18Dec2024 04:06:32.023] [main/WARN] [mixin/]: @Mixin target toughasnails.config.ThirstConfig was not found thirst.mixin.json:toughasnails.MixinServerConfig
+[18Dec2024 04:06:32.026] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHandler (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHandler)
+[18Dec2024 04:06:32.026] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHandler was not found thirst.mixin.json:toughasnails.MixinThirstHandler
+[18Dec2024 04:06:32.028] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHelperImpl (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHelperImpl)
+[18Dec2024 04:06:32.028] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHelperImpl was not found thirst.mixin.json:toughasnails.MixinThirstHelperImpl
+[18Dec2024 04:06:32.030] [main/WARN] [mixin/]: Error loading class: toughasnails/client/handler/TooltipHandler (java.lang.ClassNotFoundException: toughasnails.client.handler.TooltipHandler)
+[18Dec2024 04:06:32.030] [main/WARN] [mixin/]: @Mixin target toughasnails.client.handler.TooltipHandler was not found thirst.mixin.json:toughasnails.MixinTooltipHandler
+[18Dec2024 04:06:32.074] [main/WARN] [mixin/]: Error loading class: com/mrbysco/spoiled/config/SpoiledConfigCache (java.lang.ClassNotFoundException: com.mrbysco.spoiled.config.SpoiledConfigCache)
+[18Dec2024 04:06:32.074] [main/WARN] [mixin/]: @Mixin target com.mrbysco.spoiled.config.SpoiledConfigCache was not found cold_sweat.mixin.json:compat.MixinSpoiledIcebox$ContainerModifier
+[18Dec2024 04:06:32.691] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[18Dec2024 04:06:43.918] [main/WARN] [mixin/]: @Final field f_26027_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions; in guardvillagers.mixins.json:DefendVillageGoalGolemMixin should be final
+[18Dec2024 04:06:46.703] [modloading-worker-0/INFO] [unionlib/]: Starting up: unionlib
+[18Dec2024 04:06:47.339] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[18Dec2024 04:06:47.545] [modloading-worker-0/INFO] [hordes/]: Trying to load common config
+[18Dec2024 04:06:47.548] [modloading-worker-0/INFO] [hordes/]: Trying to load client config
+[18Dec2024 04:06:47.553] [modloading-worker-0/INFO] [hordes/]: Config files are up to date, skipping data/asset generation
+[18Dec2024 04:06:47.638] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[18Dec2024 04:06:47.639] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[18Dec2024 04:06:47.655] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[18Dec2024 04:06:47.655] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[18Dec2024 04:06:49.486] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[18Dec2024 04:06:49.491] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
+[18Dec2024 04:06:49.493] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
+[18Dec2024 04:06:55.481] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/zombieee-2/servidor_minecraft/config/coldsweat/world.toml is not correct. Correcting
+[18Dec2024 04:06:55.484] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Blocks.Block Temperatures was corrected from [[cold_sweat:boiler, 0.27, 7, mc, 0.88, lit=true, , 4], [cold_sweat:icebox, -0.27, 7, mc, 0.88, frosted=true, , 0], [minecraft:fire, 0.476, 7, mc, 0.9, , , 8], [#minecraft:campfires, 0.476, 7, mc, 0.9, lit=true,  , 8], [minecraft:magma_block, 0.25, 3, mc, 1.0], [minecraft:lava_cauldron, 0.5, 7, mc, 1.5], [minecraft:ice, -0.15, 4, mc, 0.6, , , -0.7], [minecraft:packed_ice, -0.25, 4, mc, 1.0, , , -0.7], [minecraft:blue_ice, -0.35, 4, mc, 1.4, , , -0.7], [#minecraft:ice, -0.15, 4, mc, 0.6, , , -0.7]] to its default, [[cold_sweat:boiler, 0.27, 7, mc, 0.88, lit=true, , 4], [cold_sweat:icebox, -0.27, 7, mc, 0.88, frosted=true, , 0], [minecraft:fire, 0.476, 7, mc, 0.9, , , 8], [#minecraft:campfires, 0.476, 7, mc, 0.9, lit=true,  , 8], [minecraft:magma_block, 0.25, 3, mc, 1.0], [minecraft:lava_cauldron, 0.5, 7, mc, 1.5], [minecraft:ice, -0.15, 4, mc, 0.6, , , -0.7], [minecraft:packed_ice, -0.25, 4, mc, 1.0, , , -0.7], [minecraft:blue_ice, -0.35, 4, mc, 1.4, , , -0.7], [#minecraft:ice, -0.15, 4, mc, 0.6, , , -0.7]]. 
+[18Dec2024 04:06:55.489] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/zombieee-2/servidor_minecraft/config/coldsweat/world.toml is not correct. Correcting
+[18Dec2024 04:06:56.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rpgz] Starting version check at https://raw.githubusercontent.com/Globox1997/RpgZ/master/update.json
+[18Dec2024 04:06:56.612] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[18Dec2024 04:06:56.736] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[18Dec2024 04:06:56.759] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -68,101 +68,44 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[18Dec2024 03:33:38.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib] Starting version check at https://raw.githubusercontent.com/Stereowalker/My-Home-Page/main/update_files/unionlib.json
-[18Dec2024 03:33:38.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib] Found status: BETA Current: 10.2.6 Target: null
-[18Dec2024 03:33:38.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib_potionfluid] Starting version check at https://raw.githubusercontent.com/Stereowalker/My-Home-Page/main/update_files/unionlib-potions-fluids.json
-[18Dec2024 03:33:38.785] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib_potionfluid] Found status: BETA Current: 1.0.0 Target: null
-[18Dec2024 03:33:38.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[18Dec2024 03:33:38.888] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
-[18Dec2024 03:33:38.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[18Dec2024 03:33:38.915] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
-[18Dec2024 03:33:39.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
-[18Dec2024 03:33:39.403] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
-[18Dec2024 03:33:39.418] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: BETA Current: 1.20.1-1.6.7 Target: 1.20-1.6.5
-[18Dec2024 03:33:39.418] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hordes] Starting version check at https://raw.githubusercontent.com/SmileycorpMC/The-Hordes/1.20/update.json
-[18Dec2024 03:33:39.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hordes] Found status: UP_TO_DATE Current: 1.5.4 Target: null
-[18Dec2024 03:33:39.433] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18Dec2024 03:33:39.548] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
-[18Dec2024 03:33:39.548] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[18Dec2024 03:33:39.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[18Dec2024 03:33:39.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[18Dec2024 03:33:40.180] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
-[18Dec2024 03:33:40.181] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[18Dec2024 03:33:40.289] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
-[18Dec2024 03:33:40.289] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Starting version check at https://raw.githubusercontent.com/SmileycorpMC/Atlas-Lib/1.20/update.json
-[18Dec2024 03:33:40.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Found status: UP_TO_DATE Current: 1.1.12 Target: null
-[18Dec2024 03:33:45.706] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[18Dec2024 03:33:45.707] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[18Dec2024 03:33:45.707] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[18Dec2024 03:33:45.707] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[18Dec2024 03:33:45.707] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[18Dec2024 03:33:45.708] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[18Dec2024 03:33:45.708] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[18Dec2024 03:33:45.708] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
-[18Dec2024 03:33:45.710] [main/INFO] [journeymap/]: Initializing Packet Registries
-[18Dec2024 03:33:46.030] [main/ERROR] [Bad Mobs/CATCHING]: Catching
-java.lang.reflect.InvocationTargetException: null
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.darkhax.badmobs.config.ConfigManager.open(ConfigManager.java:55) ~[BadMobs-1.20.1-19.0.4.jar%23144!/:19.0.4]
-	at net.darkhax.badmobs.config.Configuration.<init>(Configuration.java:83) ~[BadMobs-1.20.1-19.0.4.jar%23144!/:19.0.4]
-	at net.darkhax.badmobs.BadMobs.lambda$onLoadComplete$0(BadMobs.java:29) ~[BadMobs-1.20.1-19.0.4.jar%23144!/:19.0.4]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraftforge.fml.DeferredWorkQueue.lambda$makeRunnable$2(DeferredWorkQueue.java:81) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at net.minecraftforge.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:76) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at net.minecraftforge.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:60) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at java.util.concurrent.ConcurrentLinkedDeque.forEach(ConcurrentLinkedDeque.java:1650) ~[?:?]
-	at net.minecraftforge.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:60) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at net.minecraftforge.fml.core.ParallelTransition.lambda$finalActivityGenerator$2(ParallelTransition.java:35) ~[forge-1.20.1-47.3.0-universal.jar%23190!/:?]
-	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:43) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:28) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:224) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$finishMods$17(ModLoader.java:197) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.finishMods(ModLoader.java:197) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.20.1-47.3.0-universal.jar%23190!/:?]
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-Caused by: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file badmobs-common.toml of type COMMON for modid badmobs
-	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:47) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:60) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	... 37 more
-Caused by: com.electronwill.nightconfig.core.io.ParsingException: Table with path [tacz, bullet] has been declared twice.
-	at com.electronwill.nightconfig.toml.TomlParser.checkContainsOnlySubtables(TomlParser.java:136) ~[toml-3.6.4.jar%2359!/:?]
-	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:93) ~[toml-3.6.4.jar%2359!/:?]
-	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37) ~[toml-3.6.4.jar%2359!/:?]
-	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113) ~[core-3.6.4.jar%2358!/:?]
-	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219) ~[core-3.6.4.jar%2358!/:?]
-	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202) ~[core-3.6.4.jar%2358!/:?]
-	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73) ~[core-3.6.4.jar%2358!/:?]
-	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85) ~[core-3.6.4.jar%2358!/:?]
-	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:43) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:60) ~[fmlcore-1.20.1-47.3.0.jar%23186!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	... 37 more
-[18Dec2024 03:33:51.400] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18Dec2024 03:33:54.353] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/assets/.mcassetsroot' uses unexpected schema
-[18Dec2024 03:33:54.355] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/data/.mcassetsroot' uses unexpected schema
-[18Dec2024 03:33:58.626] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
-[18Dec2024 03:33:59.284] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/simple_dungeon_bc
+[18Dec2024 04:06:56.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib] Starting version check at https://raw.githubusercontent.com/Stereowalker/My-Home-Page/main/update_files/unionlib.json
+[18Dec2024 04:06:56.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib] Found status: BETA Current: 10.2.6 Target: null
+[18Dec2024 04:06:56.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib_potionfluid] Starting version check at https://raw.githubusercontent.com/Stereowalker/My-Home-Page/main/update_files/unionlib-potions-fluids.json
+[18Dec2024 04:06:56.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib_potionfluid] Found status: BETA Current: 1.0.0 Target: null
+[18Dec2024 04:06:56.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[18Dec2024 04:06:56.874] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[18Dec2024 04:06:56.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[18Dec2024 04:06:56.883] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[18Dec2024 04:06:57.372] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[18Dec2024 04:06:57.372] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[18Dec2024 04:06:57.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: BETA Current: 1.20.1-1.6.7 Target: 1.20-1.6.5
+[18Dec2024 04:06:57.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hordes] Starting version check at https://raw.githubusercontent.com/SmileycorpMC/The-Hordes/1.20/update.json
+[18Dec2024 04:06:57.394] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hordes] Found status: UP_TO_DATE Current: 1.5.4 Target: null
+[18Dec2024 04:06:57.395] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Dec2024 04:06:57.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[18Dec2024 04:06:57.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[18Dec2024 04:06:57.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[18Dec2024 04:06:57.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[18Dec2024 04:06:58.295] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
+[18Dec2024 04:06:58.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[18Dec2024 04:06:58.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[18Dec2024 04:06:58.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Starting version check at https://raw.githubusercontent.com/SmileycorpMC/Atlas-Lib/1.20/update.json
+[18Dec2024 04:06:58.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Found status: UP_TO_DATE Current: 1.1.12 Target: null
+[18Dec2024 04:07:03.960] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[18Dec2024 04:07:03.961] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[18Dec2024 04:07:03.961] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[18Dec2024 04:07:03.961] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[18Dec2024 04:07:03.966] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[18Dec2024 04:07:03.966] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[18Dec2024 04:07:03.967] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[18Dec2024 04:07:03.967] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[18Dec2024 04:07:03.968] [main/INFO] [journeymap/]: Initializing Packet Registries
+[18Dec2024 04:07:04.215] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/zombieee-2/servidor_minecraft/config/coldsweat/world.toml is not correct. Correcting
+[18Dec2024 04:07:10.793] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Dec2024 04:07:14.635] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/assets/.mcassetsroot' uses unexpected schema
+[18Dec2024 04:07:14.636] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/zombieee-2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/data/.mcassetsroot' uses unexpected schema
+[18Dec2024 04:07:17.680] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[18Dec2024 04:07:19.083] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/simple_dungeon_bc
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:vodka'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -214,7 +157,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:33:59.518] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/simple_dungeon_fr
+[18Dec2024 04:07:19.353] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/simple_dungeon_fr
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:dandelion_tea'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -266,7 +209,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:33:59.600] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/bastion_other_bc
+[18Dec2024 04:07:19.565] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/bastion_other_bc
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:red_rum'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -318,8 +261,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:33:59.662] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
-[18Dec2024 03:33:59.667] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/bastion_other_fr
+[18Dec2024 04:07:19.630] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[18Dec2024 04:07:19.644] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/bastion_other_fr
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:rose_hip_tea'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -371,7 +314,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:33:59.681] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/abandoned_mineshaft_fr
+[18Dec2024 04:07:19.662] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/abandoned_mineshaft_fr
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersdelight:apple_cider'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -423,8 +366,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:33:59.689] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
-[18Dec2024 03:33:59.697] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/abandoned_mineshaft_bc
+[18Dec2024 04:07:19.671] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[18Dec2024 04:07:19.678] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/abandoned_mineshaft_bc
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:beer'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -476,7 +419,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:33:59.708] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/nether_bridge_fr
+[18Dec2024 04:07:19.696] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/nether_bridge_fr
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:rose_hip_tea'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -528,7 +471,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:33:59.723] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/nether_bridge_bc
+[18Dec2024 04:07:19.714] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/nether_bridge_bc
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:red_rum'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -580,8 +523,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:33:59.775] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
-[18Dec2024 03:33:59.819] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
+[18Dec2024 04:07:19.789] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[18Dec2024 04:07:19.956] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -633,7 +576,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:33:59.885] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/shipwreck_supply_bc
+[18Dec2024 04:07:19.986] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/shipwreck_supply_bc
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:mead'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -685,7 +628,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:33:59.897] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/shipwreck_supply_fr
+[18Dec2024 04:07:19.997] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/shipwreck_supply_fr
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:black_tea'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -737,11 +680,11 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[18Dec2024 03:34:00.804] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
-[18Dec2024 03:34:00.805] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
-[18Dec2024 03:34:00.830] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
-[18Dec2024 03:34:00.831] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
-[18Dec2024 03:34:00.852] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe unionlib:golden_ring
+[18Dec2024 04:07:20.610] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[18Dec2024 04:07:20.610] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[18Dec2024 04:07:20.618] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[18Dec2024 04:07:20.619] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[18Dec2024 04:07:20.625] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe unionlib:golden_ring
 com.google.gson.JsonSyntaxException: Unknown item 'unionlib:golden_ring'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.0-universal.jar%23190!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.0-universal.jar%23190!/:?]
@@ -772,27 +715,27 @@ com.google.gson.JsonSyntaxException: Unknown item 'unionlib:golden_ring'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[18Dec2024 03:34:00.872] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
-[18Dec2024 03:34:00.873] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
-[18Dec2024 03:34:00.912] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
-[18Dec2024 03:34:00.914] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
-[18Dec2024 03:34:00.920] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
-[18Dec2024 03:34:00.921] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
-[18Dec2024 03:34:00.928] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
-[18Dec2024 03:34:00.929] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
-[18Dec2024 03:34:00.932] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
-[18Dec2024 03:34:00.933] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
-[18Dec2024 03:34:00.955] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
-[18Dec2024 03:34:00.956] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
-[18Dec2024 03:34:00.957] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
-[18Dec2024 03:34:00.958] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
-[18Dec2024 03:34:00.972] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
-[18Dec2024 03:34:00.973] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
-[18Dec2024 03:34:00.989] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
-[18Dec2024 03:34:00.996] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
-[18Dec2024 03:34:01.009] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
-[18Dec2024 03:34:01.010] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_smelting_silver_weapons as it's serializer returned null
-[18Dec2024 03:34:01.021] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:parcool_guide
+[18Dec2024 04:07:20.640] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[18Dec2024 04:07:20.641] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[18Dec2024 04:07:20.660] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[18Dec2024 04:07:20.660] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[18Dec2024 04:07:20.661] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[18Dec2024 04:07:20.661] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[18Dec2024 04:07:20.669] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[18Dec2024 04:07:20.669] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[18Dec2024 04:07:20.670] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[18Dec2024 04:07:20.670] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[18Dec2024 04:07:20.679] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[18Dec2024 04:07:20.679] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[18Dec2024 04:07:20.687] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[18Dec2024 04:07:20.687] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[18Dec2024 04:07:20.699] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[18Dec2024 04:07:20.699] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[18Dec2024 04:07:20.706] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[18Dec2024 04:07:20.706] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[18Dec2024 04:07:20.719] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[18Dec2024 04:07:20.719] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_smelting_silver_weapons as it's serializer returned null
+[18Dec2024 04:07:20.722] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:parcool_guide
 com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.0-universal.jar%23190!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.0-universal.jar%23190!/:?]
@@ -823,305 +766,281 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[18Dec2024 03:34:01.035] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
-[18Dec2024 03:34:01.035] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
-[18Dec2024 03:34:01.035] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
-[18Dec2024 03:34:01.036] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
-[18Dec2024 03:34:01.060] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
-[18Dec2024 03:34:01.060] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
-[18Dec2024 03:34:01.089] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
-[18Dec2024 03:34:01.090] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
-[18Dec2024 03:34:01.095] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
-[18Dec2024 03:34:01.097] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
-[18Dec2024 03:34:01.164] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
-[18Dec2024 03:34:01.165] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
-[18Dec2024 03:34:01.176] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
-[18Dec2024 03:34:01.177] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
-[18Dec2024 03:34:01.205] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
-[18Dec2024 03:34:01.206] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
-[18Dec2024 03:34:01.222] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
-[18Dec2024 03:34:01.224] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
-[18Dec2024 03:34:01.225] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
-[18Dec2024 03:34:01.226] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_blasting_silver_weapons as it's serializer returned null
-[18Dec2024 03:34:01.253] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 23 recipes
-[18Dec2024 03:34:01.336] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement cold_sweat:use_hearth: Unknown effect 'cold_sweat:insulated'
-[18Dec2024 03:34:01.812] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3641 advancements
-[18Dec2024 03:34:01.823] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
-[18Dec2024 03:34:01.856] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.857] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.857] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.858] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.858] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.859] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.859] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.860] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.860] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.861] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.861] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.861] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.862] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.862] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.863] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[18Dec2024 03:34:01.899] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[18Dec2024 03:34:01.919] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[18Dec2024 03:34:01.939] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 35, min day 0 and max day 20
-[18Dec2024 03:34:01.940] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_villager as entity.minecraft.zombie_villager with weight 1, min day 0 and max day 20
-[18Dec2024 03:34:01.940] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 20 and max day 40
-[18Dec2024 03:34:01.941] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 40, min day 20 and max day 40
-[18Dec2024 03:34:01.942] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
-[18Dec2024 03:34:01.943] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 40 and max day 40
-[18Dec2024 03:34:01.943] [main/INFO] [hordes/]: Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 0
-[18Dec2024 03:34:01.944] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 25, min day 50 and max day 0
-[18Dec2024 03:34:01.945] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 50 and max day 0
-[18Dec2024 03:34:01.945] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 50 and max day 0
-[18Dec2024 03:34:01.946] [main/INFO] [hordes/]: loaded horde table hordes:default
-[18Dec2024 03:34:01.947] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 40, min day 0 and max day 20
-[18Dec2024 03:34:01.948] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
-[18Dec2024 03:34:01.948] [main/INFO] [hordes/]: loaded horde table hordes:drowned
-[18Dec2024 03:34:01.949] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 20, min day 0 and max day 20
-[18Dec2024 03:34:01.950] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 20 and max day 30
-[18Dec2024 03:34:01.951] [main/INFO] [hordes/]: Loaded entity minecraft:spider as entity.minecraft.spider with weight 15, min day 20 and max day 30
-[18Dec2024 03:34:01.951] [main/INFO] [hordes/]: Loaded entity minecraft:creeper as entity.minecraft.creeper with weight 5, min day 30 and max day 30
-[18Dec2024 03:34:01.953] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 20, min day 30 and max day 50
-[18Dec2024 03:34:01.954] [main/INFO] [hordes/]: Loaded entity minecraft:stray as entity.minecraft.stray with weight 10, min day 40 and max day 50
-[18Dec2024 03:34:01.954] [main/INFO] [hordes/]: Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 10, min day 40 and max day 50
-[18Dec2024 03:34:01.955] [main/INFO] [hordes/]: Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 40 and max day 50
-[18Dec2024 03:34:01.956] [main/INFO] [hordes/]: Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 10, min day 40 and max day 50
-[18Dec2024 03:34:01.957] [main/INFO] [hordes/]: Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 50
-[18Dec2024 03:34:01.958] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 40 and max day 50
-[18Dec2024 03:34:01.959] [main/INFO] [hordes/]: Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 50 and max day 0
-[18Dec2024 03:34:01.959] [main/INFO] [hordes/]: Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 5, min day 50 and max day 50
-[18Dec2024 03:34:01.960] [main/INFO] [hordes/]: Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 50 and max day 50
-[18Dec2024 03:34:01.961] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 5, min day 40 and max day 40
-[18Dec2024 03:34:01.961] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 50
-[18Dec2024 03:34:01.963] [main/INFO] [hordes/]: Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 5, min day 50 and max day 50
-[18Dec2024 03:34:01.963] [main/INFO] [hordes/]: Loaded entity minecraft:piglin_brute as entity.minecraft.piglin_brute with weight 10, min day 60 and max day 0
-[18Dec2024 03:34:01.964] [main/INFO] [hordes/]: Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 15, min day 60 and max day 0
-[18Dec2024 03:34:01.965] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 5, min day 60 and max day 0
-[18Dec2024 03:34:01.966] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 60 and max day 0
-[18Dec2024 03:34:01.967] [main/INFO] [hordes/]: Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 3, min day 60 and max day 0
-[18Dec2024 03:34:01.968] [main/INFO] [hordes/]: loaded horde table hordes:mixed_mobs
-[18Dec2024 03:34:01.968] [main/INFO] [hordes/]: Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 15, min day 0 and max day 0
-[18Dec2024 03:34:01.969] [main/INFO] [hordes/]: Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 0 and max day 0
-[18Dec2024 03:34:01.970] [main/INFO] [hordes/]: Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 20 and max day 0
-[18Dec2024 03:34:01.970] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 30 and max day 40
-[18Dec2024 03:34:01.971] [main/INFO] [hordes/]: Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 3, min day 40 and max day 40
-[18Dec2024 03:34:01.972] [main/INFO] [hordes/]: Loaded entity minecraft:illusioner as entity.minecraft.illusioner with weight 5, min day 50 and max day 0
-[18Dec2024 03:34:01.973] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 50 and max day 0
-[18Dec2024 03:34:01.973] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 0
-[18Dec2024 03:34:01.974] [main/INFO] [hordes/]: loaded horde table hordes:illagers
-[18Dec2024 03:34:01.975] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 0 and max day 20
-[18Dec2024 03:34:01.976] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 20, min day 0 and max day 30
-[18Dec2024 03:34:01.977] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with weight 5, min day 20 and max day 50
-[18Dec2024 03:34:01.978] [main/INFO] [hordes/]: Loaded entity minecraft:stray as entity.minecraft.stray with weight 10, min day 20 and max day 0
-[18Dec2024 03:34:01.978] [main/INFO] [hordes/]: Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 40 and max day 0
-[18Dec2024 03:34:01.979] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with weight 5, min day 40 and max day 0
-[18Dec2024 03:34:01.980] [main/INFO] [hordes/]: loaded horde table hordes:skeletons
-[18Dec2024 03:34:01.981] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
-[18Dec2024 03:34:01.982] [main/INFO] [hordes/]: loaded horde table hordes:fallback
-[18Dec2024 03:34:01.994] [main/INFO] [hordes/]: loaded horde script hordes:default
-[18Dec2024 03:34:01.995] [main/INFO] [hordes/]: Loading conversion tables
-[18Dec2024 03:34:01.997] [main/INFO] [hordes/]: Loading conversion table hordes:infection_conversions
-[18Dec2024 03:34:02.003] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.horse to entity.minecraft.zombie_horse with chance of 0.65
-[18Dec2024 03:34:02.004] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.piglin to entity.minecraft.zombified_piglin with chance of 0.75
-[18Dec2024 03:34:02.010] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.piglin_brute to entity.minecraft.zombified_piglin{Attributes:[{Base:50.0f,Name:"generic.max_health"}],chat_name:"entity.hordes.ZombifiedPiglinBrute.name",texture:"hordes:textures/entity/zombified_piglin_brute.png"} with chance of 0.35
-[18Dec2024 03:34:02.011] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.hoglin to entity.minecraft.zoglin with chance of 0.15
-[18Dec2024 03:34:02.012] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.wandering_trader to entity.minecraft.zombie_villager{VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWanderingTrader.name",texture:"hordes:textures/entity/zombie_wandering_trader.png"} with chance of 0.75
-[18Dec2024 03:34:02.013] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.pillager to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombiePillager.name",texture:"hordes:textures/entity/zombie_pillager.png"} with chance of 0.75
-[18Dec2024 03:34:02.015] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.vindicator to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieVindicator.name",texture:"hordes:textures/entity/zombie_vindicator.png"} with chance of 0.35
-[18Dec2024 03:34:02.016] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.evoker to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieEvoker.name",texture:"hordes:textures/entity/zombie_evoker.png"} with chance of 0.5
-[18Dec2024 03:34:02.017] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.illusioner to entity.minecraft.zombie_villager{Attributes:[{Base:32.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieIllusioner.name",texture:"hordes:textures/entity/zombie_illusioner.png"} with chance of 0.15
-[18Dec2024 03:34:02.018] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.witch to entity.minecraft.zombie_villager{Attributes:[{Base:26.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWitch.name",texture:"hordes:textures/entity/zombie_witch.png"} with chance of 0.25
-[18Dec2024 03:34:02.018] [main/INFO] [hordes/]: Loading immunity item list
-[18Dec2024 03:34:02.020] [main/INFO] [hordes/]: Loading immunity item list hordes:immunity_items
-[18Dec2024 03:34:02.020] [main/INFO] [hordes/]: Loaded immunity item minecraft:enchanted_golden_apple with duration 150
-[18Dec2024 03:34:02.021] [main/INFO] [hordes/]: Loading wearables protection list
-[18Dec2024 03:34:02.022] [main/INFO] [hordes/]: Loading wearables protection list hordes:immune_wearables
-[18Dec2024 03:34:02.025] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_boots with modifier 0.95
-[18Dec2024 03:34:02.025] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_leggings with modifier 0.95
-[18Dec2024 03:34:02.026] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_chestplate with modifier 0.95
-[18Dec2024 03:34:02.027] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_helmet with modifier 0.95
-[18Dec2024 03:34:02.028] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_boots with modifier 0.95
-[18Dec2024 03:34:02.029] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_leggings with modifier 0.95
-[18Dec2024 03:34:02.030] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_chestplate with modifier 0.95
-[18Dec2024 03:34:02.031] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_helmet with modifier 0.95
-[18Dec2024 03:34:02.031] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_boots with modifier 0.9
-[18Dec2024 03:34:02.035] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_leggings with modifier 0.9
-[18Dec2024 03:34:02.036] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_chestplate with modifier 0.9
-[18Dec2024 03:34:02.037] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_helmet with modifier 0.9
-[18Dec2024 03:34:02.037] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_boots with modifier 0.9
-[18Dec2024 03:34:02.038] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_leggings with modifier 0.9
-[18Dec2024 03:34:02.039] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_chestplate with modifier 0.9
-[18Dec2024 03:34:02.039] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_helmet with modifier 0.9
-[18Dec2024 03:34:02.040] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_boots with modifier 0.86
-[18Dec2024 03:34:02.041] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_leggings with modifier 0.86
-[18Dec2024 03:34:02.042] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_chestplate with modifier 0.86
-[18Dec2024 03:34:02.043] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_helmet with modifier 0.86
-[18Dec2024 03:34:02.044] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_boots with modifier 0.82
-[18Dec2024 03:34:02.044] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_leggings with modifier 0.82
-[18Dec2024 03:34:02.045] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_chestplate with modifier 0.82
-[18Dec2024 03:34:02.046] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_helmet with modifier 0.82
-[18Dec2024 03:34:02.046] [main/INFO] [hordes/]: Loaded wearable protection minecraft:turtle_helmet with modifier 0.75
-[18Dec2024 03:34:04.151] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 9.128674ms
-[18Dec2024 03:34:05.695] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[18Dec2024 03:34:05.696] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[18Dec2024 03:34:05.696] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[18Dec2024 03:34:05.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18Dec2024 03:34:05.921] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[18Dec2024 03:34:06.027] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[18Dec2024 03:34:06.354] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18Dec2024 03:34:06.355] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[18Dec2024 03:34:06.356] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18Dec2024 03:34:06.356] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[18Dec2024 03:34:06.407] [Server thread/INFO] [Cold Sweat/]: Loading registries from configs...
-[18Dec2024 03:34:06.410] [Server thread/INFO] [Cold Sweat/]: Loading registries from data resources...
-[18Dec2024 03:34:06.426] [Server thread/INFO] [Cold Sweat/]: Handling registry removals...
-[18Dec2024 03:34:06.438] [Server thread/INFO] [Cold Sweat/]: Loaded 9 insulators:
-[18Dec2024 03:34:06.463] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{"items":["create:netherite_diving_boots","minecraft:netherite_boots"]},"head":{"items":["create:netherite_diving_helmet"]},"chest":{"nbt":{"Air":"1-9999"},"items":["create:netherite_backtank"]},"legs":{"items":["minecraft:netherite_leggings"]}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.1,"operation":"addition"}],"cold_sweat:heat_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.25,"operation":"addition"}]},"required_mods":["create"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{"items":["minecraft:netherite_boots"]}}
-[18Dec2024 03:34:06.468] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{"items":["create:netherite_diving_boots","minecraft:netherite_boots"]},"head":{"items":["create:netherite_diving_helmet"]},"chest":{"nbt":{"Air":"1-9999"},"items":["create:netherite_backtank"]},"legs":{"items":["minecraft:netherite_leggings"]}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.1,"operation":"addition"}],"cold_sweat:heat_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.25,"operation":"addition"}]},"required_mods":["create"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{"items":["create:netherite_diving_helmet"]}}
-[18Dec2024 03:34:06.472] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{},"head":{},"chest":{},"legs":{}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:three_bolt_set_bonus","amount":0.2,"operation":"addition"}]},"immune_temp_modifiers":{"cold_sweat:water":1.0},"required_mods":["aquamirae"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{}}
-[18Dec2024 03:34:06.475] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{"items":["create:netherite_diving_boots","minecraft:netherite_boots"]},"head":{"items":["create:netherite_diving_helmet"]},"chest":{"nbt":{"Air":"1-9999"},"items":["create:netherite_backtank"]},"legs":{"items":["minecraft:netherite_leggings"]}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.1,"operation":"addition"}],"cold_sweat:heat_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.25,"operation":"addition"}]},"required_mods":["create"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{"items":["create:netherite_diving_boots"]}}
-[18Dec2024 03:34:06.478] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{"items":["create:netherite_diving_boots","minecraft:netherite_boots"]},"head":{"items":["create:netherite_diving_helmet"]},"chest":{"nbt":{"Air":"1-9999"},"items":["create:netherite_backtank"]},"legs":{"items":["minecraft:netherite_leggings"]}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.1,"operation":"addition"}],"cold_sweat:heat_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.25,"operation":"addition"}]},"required_mods":["create"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{"items":["minecraft:netherite_leggings"]}}
-[18Dec2024 03:34:06.481] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{},"head":{},"chest":{},"legs":{}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:three_bolt_set_bonus","amount":0.2,"operation":"addition"}]},"immune_temp_modifiers":{"cold_sweat:water":1.0},"required_mods":["aquamirae"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{}}
-[18Dec2024 03:34:06.484] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{},"head":{},"chest":{},"legs":{}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:three_bolt_set_bonus","amount":0.2,"operation":"addition"}]},"immune_temp_modifiers":{"cold_sweat:water":1.0},"required_mods":["aquamirae"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{}}
-[18Dec2024 03:34:06.488] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{"items":["create:netherite_diving_boots","minecraft:netherite_boots"]},"head":{"items":["create:netherite_diving_helmet"]},"chest":{"nbt":{"Air":"1-9999"},"items":["create:netherite_backtank"]},"legs":{"items":["minecraft:netherite_leggings"]}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.1,"operation":"addition"}],"cold_sweat:heat_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.25,"operation":"addition"}]},"immune_temp_modifiers":{"cold_sweat:water":1.0},"required_mods":["create"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{"items":["create:netherite_backtank"]}}
-[18Dec2024 03:34:06.490] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{},"head":{},"chest":{},"legs":{}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:three_bolt_set_bonus","amount":0.2,"operation":"addition"}]},"immune_temp_modifiers":{"cold_sweat:water":1.0},"required_mods":["aquamirae"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{}}
-[18Dec2024 03:34:06.492] [Server thread/INFO] [Cold Sweat/]: Loaded 0 fuels.
-[18Dec2024 03:34:06.495] [Server thread/INFO] [Cold Sweat/]: Loaded 0 foods.
-[18Dec2024 03:34:06.498] [Server thread/INFO] [Cold Sweat/]: Loaded 0 carried item temperatures.
-[18Dec2024 03:34:06.500] [Server thread/INFO] [Cold Sweat/]: Loaded 0 block temperatures.
-[18Dec2024 03:34:06.502] [Server thread/INFO] [Cold Sweat/]: Loaded 0 biome temperatures.
-[18Dec2024 03:34:06.505] [Server thread/INFO] [Cold Sweat/]: Loaded 0 dimension temperatures.
-[18Dec2024 03:34:06.507] [Server thread/INFO] [Cold Sweat/]: Loaded 0 structure temperatures.
-[18Dec2024 03:34:06.508] [Server thread/INFO] [Cold Sweat/]: Loaded 1 depth temperatures:
-[18Dec2024 03:34:06.514] [Server thread/INFO] [Cold Sweat/]: DepthTempData{"regions":[{"top":{"depth":2147483647,"temperature":NaN},"bottom":{"anchor":"world_top","depth":1,"temperature":NaN}},{"top":{"anchor":"world_top","depth":0,"temperature":NaN},"bottom":{"anchor":"ground_level","depth":0,"temperature":NaN}},{"type":"linear","top":{"anchor":"ground_level","depth":-1,"temperature":NaN},"bottom":{"anchor":"ground_level","depth":-20,"units":"f","temperature":75.0}},{"type":"logarithmic","top":{"anchor":"ground_level","depth":-21,"units":"f","temperature":75.0},"bottom":{"anchor":"world_bottom","depth":1,"units":"f","temperature":90.0}},{"type":"linear","top":{"anchor":"world_bottom","depth":0,"units":"f","temperature":90.0},"bottom":{"anchor":"world_bottom","depth":-319,"units":"c","temperature":-273.15}},{"top":{"anchor":"world_bottom","depth":-320,"units":"c","temperature":-273.15},"bottom":{"depth":-2147483648,"units":"c","temperature":-273.15}}],"dimensions":["#forge:overworld_like"]}
-[18Dec2024 03:34:06.516] [Server thread/INFO] [Cold Sweat/]: Loaded 0 insulated mounts.
-[18Dec2024 03:34:06.518] [Server thread/INFO] [Cold Sweat/]: Loaded 0 entity spawn biomes.
-[18Dec2024 03:34:06.520] [Server thread/INFO] [Cold Sweat/]: Loaded 0 entity temperatures.
-[18Dec2024 03:34:06.523] [Server thread/INFO] [Cold Sweat/]: Loading TOML configs...
-[18Dec2024 03:34:06.589] [Server thread/INFO] [Cold Sweat/]: Loading BlockTemps...
-[18Dec2024 03:34:06.639] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[18Dec2024 03:34:06.641] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[18Dec2024 03:34:06.643] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[18Dec2024 03:34:07.036] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[18Dec2024 03:34:07.038] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
-[18Dec2024 03:34:07.040] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
-[18Dec2024 03:34:07.041] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[18Dec2024 03:34:07.050] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
-[18Dec2024 03:34:07.054] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[18Dec2024 03:34:07.057] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
-[18Dec2024 03:34:07.058] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
-[18Dec2024 03:34:07.060] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[18Dec2024 03:34:07.065] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
-[18Dec2024 03:34:07.669] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[18Dec2024 03:34:07.673] [Server thread/INFO] [unionlib/]: Initializing mod on server: unionlib
-[18Dec2024 03:34:16.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18Dec2024 03:34:33.666] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.667] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.668] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.668] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.685] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.685] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.685] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.687] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.687] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.688] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.688] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.689] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.689] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.690] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.690] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.691] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.691] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.691] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.692] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.693] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.694] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.699] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.700] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.701] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.702] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.706] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.707] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.711] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.714] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.715] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.719] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.720] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:33.945] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:34.445] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:34.946] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:35.445] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:35.945] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:36.493] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Dec2024 03:34:37.408] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 20464 ms
-[18Dec2024 03:34:37.409] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (31.004s)! For help, type "help"
-[18Dec2024 03:34:37.508] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18Dec2024 03:34:37.541] [Server thread/INFO] [puffish_skills/]: [puffish_skills] Mod configuration loaded successfully!
-[18Dec2024 03:36:09.148] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Peshino2021[/100.85.151.48:55855] logged in with entity id 34 at (-16.29661820671434, 75.0, -497.9283137275963)
-[18Dec2024 03:36:09.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 joined the game
-[18Dec2024 03:36:10.426] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of a11d13dd-df9d-3a56-8a35-e7fec2d1b7fd was loaded
-[18Dec2024 03:36:13.928] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
-[18Dec2024 03:36:21.988] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Rabbit['Rabbit'/486, l='ServerLevel[Amberlight City v2 Apocalypse]', x=-43.40, y=64.04, z=-310.10]
-[18Dec2024 03:36:21.990] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Rabbit['Rabbit'/487, l='ServerLevel[Amberlight City v2 Apocalypse]', x=-43.40, y=64.04, z=-310.10]
-[18Dec2024 03:36:31.444] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Rabbit['Rabbit'/560, l='ServerLevel[Amberlight City v2 Apocalypse]', x=-34.79, y=64.04, z=-303.11]
-[18Dec2024 03:36:31.446] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Rabbit['Rabbit'/561, l='ServerLevel[Amberlight City v2 Apocalypse]', x=-34.79, y=64.04, z=-303.11]
-[18Dec2024 03:36:34.793] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Patobich007[/100.115.126.114:51228] logged in with entity id 679 at (189.5, 72.0, -284.5)
-[18Dec2024 03:36:34.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 joined the game
-[18Dec2024 03:36:35.414] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 80037c9f-7b54-34e5-bbe7-116486a4c0d5 was loaded
-[18Dec2024 03:36:35.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 has made the advancement [Inhospitable]
-[18Dec2024 03:36:38.397] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2089ms or 41 ticks behind
-[18Dec2024 03:37:22.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Peshino2021 a server operator
-[18Dec2024 03:37:55.347] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=191, y=67, z=-279}
-[18Dec2024 03:37:57.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=184, y=67, z=-279}
-[18Dec2024 03:37:58.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Set own game mode to Survival Mode]
-[18Dec2024 03:38:02.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Set the time to 1000]
-[18Dec2024 03:38:52.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 was killed
-[18Dec2024 03:38:52.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was killed
-[18Dec2024 03:38:52.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Killed 2 entities]
-[18Dec2024 03:38:56.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 was killed
-[18Dec2024 03:38:56.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was killed
-[18Dec2024 03:38:57.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Killed 221 entities]
-[18Dec2024 03:39:02.199] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=189, y=71, z=-286}
-[18Dec2024 03:39:02.349] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=189, y=72, z=-285}
-[18Dec2024 03:40:43.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Difficulty set to 0.0]
-[18Dec2024 03:40:49.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Reloading equipment.json]
-[18Dec2024 03:41:14.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Difficulty set to -0.0]
-[18Dec2024 03:41:28.768] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=193, y=69, z=-283}
-[18Dec2024 03:41:58.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Spread 1 player(s) around 0.5, 0.5 with an average distance of 0.00 blocks apart]
-[18Dec2024 03:41:58.990] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 30182ms or 603 ticks behind
-[18Dec2024 03:41:59.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Peshino2021 lost connection: Disconnected
-[18Dec2024 03:41:59.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 left the game
-[18Dec2024 03:41:59.017] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of a11d13dd-df9d-3a56-8a35-e7fec2d1b7fd was unloaded
-[18Dec2024 03:41:59.054] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patobich007 lost connection: Disconnected
-[18Dec2024 03:41:59.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 left the game
-[18Dec2024 03:41:59.056] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 80037c9f-7b54-34e5-bbe7-116486a4c0d5 was unloaded
-[18Dec2024 03:42:06.368] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Peshino2021[/100.85.151.48:55940] logged in with entity id 2043 at (-51.5, 81.0, -410.5)
-[18Dec2024 03:42:06.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 joined the game
-[18Dec2024 03:42:07.324] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of a11d13dd-df9d-3a56-8a35-e7fec2d1b7fd was loaded
-[18Dec2024 03:42:08.038] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Rabbit['Rabbit'/2208, l='ServerLevel[Amberlight City v2 Apocalypse]', x=-43.40, y=64.04, z=-310.10]
-[18Dec2024 03:42:08.039] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Rabbit['Rabbit'/2209, l='ServerLevel[Amberlight City v2 Apocalypse]', x=-43.40, y=64.04, z=-310.10]
-[18Dec2024 03:42:08.265] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Rabbit['Rabbit'/2264, l='ServerLevel[Amberlight City v2 Apocalypse]', x=-34.79, y=64.04, z=-303.11]
-[18Dec2024 03:42:08.266] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Rabbit['Rabbit'/2265, l='ServerLevel[Amberlight City v2 Apocalypse]', x=-34.79, y=64.04, z=-303.11]
-[18Dec2024 03:42:19.229] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Patobich007[/100.115.126.114:51293] logged in with entity id 2653 at (194.82234208689383, 68.5, -282.0619651837112)
-[18Dec2024 03:42:19.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 joined the game
-[18Dec2024 03:42:19.703] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 80037c9f-7b54-34e5-bbe7-116486a4c0d5 was loaded
-[18Dec2024 03:42:36.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
-[18Dec2024 03:42:40.448] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=192, y=68, z=-284}
-[18Dec2024 03:42:56.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Spread 1 player(s) around 0.5, 0.5 with an average distance of 0.00 blocks apart]
-[18Dec2024 03:42:56.984] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10826ms or 216 ticks behind
-[18Dec2024 03:42:57.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Spread 1 player(s) around 0.5, 0.5 with an average distance of 0.00 blocks apart]
-[18Dec2024 03:44:11.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Spread 1 team(s) around 0.5, 0.5 with an average distance of 0.00 blocks apart]
-[18Dec2024 03:44:11.066] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8957ms or 179 ticks behind
-[18Dec2024 03:44:36.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
-[18Dec2024 03:44:58.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Set spawn point to 190, 67, 2633 [0.0] in minecraft:overworld for 2 players]
-[18Dec2024 03:46:17.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[18Dec2024 03:46:17.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...5000 false<--[HERE]
-[18Dec2024 03:46:28.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 has made the advancement [Stone Age]
-[18Dec2024 03:46:45.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing changed. The player already is an operator
-[18Dec2024 03:46:50.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 froze to death
-[18Dec2024 03:47:41.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 has made the advancement [Huddle Close]
-[18Dec2024 03:49:46.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 froze to death
-[18Dec2024 03:52:13.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 froze to death
+[18Dec2024 04:07:20.727] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[18Dec2024 04:07:20.728] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[18Dec2024 04:07:20.729] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[18Dec2024 04:07:20.730] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[18Dec2024 04:07:20.741] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[18Dec2024 04:07:20.741] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[18Dec2024 04:07:20.749] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[18Dec2024 04:07:20.750] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[18Dec2024 04:07:20.752] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[18Dec2024 04:07:20.753] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[18Dec2024 04:07:20.782] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[18Dec2024 04:07:20.783] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[18Dec2024 04:07:20.792] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[18Dec2024 04:07:20.793] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[18Dec2024 04:07:20.805] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[18Dec2024 04:07:20.806] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[18Dec2024 04:07:20.814] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[18Dec2024 04:07:20.815] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[18Dec2024 04:07:20.815] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[18Dec2024 04:07:20.816] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_blasting_silver_weapons as it's serializer returned null
+[18Dec2024 04:07:20.829] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 23 recipes
+[18Dec2024 04:07:20.897] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement cold_sweat:use_hearth: Unknown effect 'cold_sweat:insulated'
+[18Dec2024 04:07:21.156] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3641 advancements
+[18Dec2024 04:07:21.163] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[18Dec2024 04:07:21.192] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.193] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.193] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.193] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.194] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.194] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.194] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.195] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.195] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.195] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.196] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.196] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.196] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.197] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.198] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[18Dec2024 04:07:21.207] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[18Dec2024 04:07:21.214] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[18Dec2024 04:07:21.222] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 35, min day 0 and max day 20
+[18Dec2024 04:07:21.222] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_villager as entity.minecraft.zombie_villager with weight 1, min day 0 and max day 20
+[18Dec2024 04:07:21.223] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 20 and max day 40
+[18Dec2024 04:07:21.223] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 40, min day 20 and max day 40
+[18Dec2024 04:07:21.224] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+[18Dec2024 04:07:21.224] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 40 and max day 40
+[18Dec2024 04:07:21.225] [main/INFO] [hordes/]: Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 0
+[18Dec2024 04:07:21.225] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 25, min day 50 and max day 0
+[18Dec2024 04:07:21.226] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 50 and max day 0
+[18Dec2024 04:07:21.227] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 50 and max day 0
+[18Dec2024 04:07:21.227] [main/INFO] [hordes/]: loaded horde table hordes:default
+[18Dec2024 04:07:21.228] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 40, min day 0 and max day 20
+[18Dec2024 04:07:21.228] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+[18Dec2024 04:07:21.229] [main/INFO] [hordes/]: loaded horde table hordes:drowned
+[18Dec2024 04:07:21.229] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 20, min day 0 and max day 20
+[18Dec2024 04:07:21.230] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 20 and max day 30
+[18Dec2024 04:07:21.230] [main/INFO] [hordes/]: Loaded entity minecraft:spider as entity.minecraft.spider with weight 15, min day 20 and max day 30
+[18Dec2024 04:07:21.231] [main/INFO] [hordes/]: Loaded entity minecraft:creeper as entity.minecraft.creeper with weight 5, min day 30 and max day 30
+[18Dec2024 04:07:21.233] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 20, min day 30 and max day 50
+[18Dec2024 04:07:21.234] [main/INFO] [hordes/]: Loaded entity minecraft:stray as entity.minecraft.stray with weight 10, min day 40 and max day 50
+[18Dec2024 04:07:21.235] [main/INFO] [hordes/]: Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 10, min day 40 and max day 50
+[18Dec2024 04:07:21.235] [main/INFO] [hordes/]: Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 40 and max day 50
+[18Dec2024 04:07:21.236] [main/INFO] [hordes/]: Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 10, min day 40 and max day 50
+[18Dec2024 04:07:21.236] [main/INFO] [hordes/]: Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 50
+[18Dec2024 04:07:21.237] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 40 and max day 50
+[18Dec2024 04:07:21.237] [main/INFO] [hordes/]: Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 50 and max day 0
+[18Dec2024 04:07:21.238] [main/INFO] [hordes/]: Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 5, min day 50 and max day 50
+[18Dec2024 04:07:21.238] [main/INFO] [hordes/]: Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 50 and max day 50
+[18Dec2024 04:07:21.239] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 5, min day 40 and max day 40
+[18Dec2024 04:07:21.239] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 50
+[18Dec2024 04:07:21.240] [main/INFO] [hordes/]: Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 5, min day 50 and max day 50
+[18Dec2024 04:07:21.240] [main/INFO] [hordes/]: Loaded entity minecraft:piglin_brute as entity.minecraft.piglin_brute with weight 10, min day 60 and max day 0
+[18Dec2024 04:07:21.241] [main/INFO] [hordes/]: Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 15, min day 60 and max day 0
+[18Dec2024 04:07:21.241] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 5, min day 60 and max day 0
+[18Dec2024 04:07:21.242] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 60 and max day 0
+[18Dec2024 04:07:21.242] [main/INFO] [hordes/]: Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 3, min day 60 and max day 0
+[18Dec2024 04:07:21.243] [main/INFO] [hordes/]: loaded horde table hordes:mixed_mobs
+[18Dec2024 04:07:21.244] [main/INFO] [hordes/]: Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 15, min day 0 and max day 0
+[18Dec2024 04:07:21.244] [main/INFO] [hordes/]: Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 0 and max day 0
+[18Dec2024 04:07:21.245] [main/INFO] [hordes/]: Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 20 and max day 0
+[18Dec2024 04:07:21.245] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 30 and max day 40
+[18Dec2024 04:07:21.246] [main/INFO] [hordes/]: Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 3, min day 40 and max day 40
+[18Dec2024 04:07:21.246] [main/INFO] [hordes/]: Loaded entity minecraft:illusioner as entity.minecraft.illusioner with weight 5, min day 50 and max day 0
+[18Dec2024 04:07:21.247] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 50 and max day 0
+[18Dec2024 04:07:21.248] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 0
+[18Dec2024 04:07:21.248] [main/INFO] [hordes/]: loaded horde table hordes:illagers
+[18Dec2024 04:07:21.249] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 0 and max day 20
+[18Dec2024 04:07:21.249] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 20, min day 0 and max day 30
+[18Dec2024 04:07:21.250] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with weight 5, min day 20 and max day 50
+[18Dec2024 04:07:21.251] [main/INFO] [hordes/]: Loaded entity minecraft:stray as entity.minecraft.stray with weight 10, min day 20 and max day 0
+[18Dec2024 04:07:21.251] [main/INFO] [hordes/]: Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 40 and max day 0
+[18Dec2024 04:07:21.263] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with weight 5, min day 40 and max day 0
+[18Dec2024 04:07:21.264] [main/INFO] [hordes/]: loaded horde table hordes:skeletons
+[18Dec2024 04:07:21.264] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
+[18Dec2024 04:07:21.265] [main/INFO] [hordes/]: loaded horde table hordes:fallback
+[18Dec2024 04:07:21.271] [main/INFO] [hordes/]: loaded horde script hordes:default
+[18Dec2024 04:07:21.271] [main/INFO] [hordes/]: Loading conversion tables
+[18Dec2024 04:07:21.275] [main/INFO] [hordes/]: Loading conversion table hordes:infection_conversions
+[18Dec2024 04:07:21.281] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.horse to entity.minecraft.zombie_horse with chance of 0.65
+[18Dec2024 04:07:21.282] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.piglin to entity.minecraft.zombified_piglin with chance of 0.75
+[18Dec2024 04:07:21.286] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.piglin_brute to entity.minecraft.zombified_piglin{Attributes:[{Base:50.0f,Name:"generic.max_health"}],chat_name:"entity.hordes.ZombifiedPiglinBrute.name",texture:"hordes:textures/entity/zombified_piglin_brute.png"} with chance of 0.35
+[18Dec2024 04:07:21.287] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.hoglin to entity.minecraft.zoglin with chance of 0.15
+[18Dec2024 04:07:21.287] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.wandering_trader to entity.minecraft.zombie_villager{VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWanderingTrader.name",texture:"hordes:textures/entity/zombie_wandering_trader.png"} with chance of 0.75
+[18Dec2024 04:07:21.288] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.pillager to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombiePillager.name",texture:"hordes:textures/entity/zombie_pillager.png"} with chance of 0.75
+[18Dec2024 04:07:21.289] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.vindicator to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieVindicator.name",texture:"hordes:textures/entity/zombie_vindicator.png"} with chance of 0.35
+[18Dec2024 04:07:21.289] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.evoker to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieEvoker.name",texture:"hordes:textures/entity/zombie_evoker.png"} with chance of 0.5
+[18Dec2024 04:07:21.290] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.illusioner to entity.minecraft.zombie_villager{Attributes:[{Base:32.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieIllusioner.name",texture:"hordes:textures/entity/zombie_illusioner.png"} with chance of 0.15
+[18Dec2024 04:07:21.290] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.witch to entity.minecraft.zombie_villager{Attributes:[{Base:26.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWitch.name",texture:"hordes:textures/entity/zombie_witch.png"} with chance of 0.25
+[18Dec2024 04:07:21.291] [main/INFO] [hordes/]: Loading immunity item list
+[18Dec2024 04:07:21.291] [main/INFO] [hordes/]: Loading immunity item list hordes:immunity_items
+[18Dec2024 04:07:21.292] [main/INFO] [hordes/]: Loaded immunity item minecraft:enchanted_golden_apple with duration 150
+[18Dec2024 04:07:21.293] [main/INFO] [hordes/]: Loading wearables protection list
+[18Dec2024 04:07:21.293] [main/INFO] [hordes/]: Loading wearables protection list hordes:immune_wearables
+[18Dec2024 04:07:21.294] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_boots with modifier 0.95
+[18Dec2024 04:07:21.295] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_leggings with modifier 0.95
+[18Dec2024 04:07:21.295] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_chestplate with modifier 0.95
+[18Dec2024 04:07:21.296] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_helmet with modifier 0.95
+[18Dec2024 04:07:21.296] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_boots with modifier 0.95
+[18Dec2024 04:07:21.297] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_leggings with modifier 0.95
+[18Dec2024 04:07:21.297] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_chestplate with modifier 0.95
+[18Dec2024 04:07:21.298] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_helmet with modifier 0.95
+[18Dec2024 04:07:21.298] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_boots with modifier 0.9
+[18Dec2024 04:07:21.299] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_leggings with modifier 0.9
+[18Dec2024 04:07:21.300] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_chestplate with modifier 0.9
+[18Dec2024 04:07:21.300] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_helmet with modifier 0.9
+[18Dec2024 04:07:21.301] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_boots with modifier 0.9
+[18Dec2024 04:07:21.301] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_leggings with modifier 0.9
+[18Dec2024 04:07:21.302] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_chestplate with modifier 0.9
+[18Dec2024 04:07:21.302] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_helmet with modifier 0.9
+[18Dec2024 04:07:21.303] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_boots with modifier 0.86
+[18Dec2024 04:07:21.303] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_leggings with modifier 0.86
+[18Dec2024 04:07:21.304] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_chestplate with modifier 0.86
+[18Dec2024 04:07:21.304] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_helmet with modifier 0.86
+[18Dec2024 04:07:21.305] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_boots with modifier 0.82
+[18Dec2024 04:07:21.305] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_leggings with modifier 0.82
+[18Dec2024 04:07:21.305] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_chestplate with modifier 0.82
+[18Dec2024 04:07:21.311] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_helmet with modifier 0.82
+[18Dec2024 04:07:21.312] [main/INFO] [hordes/]: Loaded wearable protection minecraft:turtle_helmet with modifier 0.75
+[18Dec2024 04:07:24.056] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 6.278088ms
+[18Dec2024 04:07:24.734] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18Dec2024 04:07:24.735] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Dec2024 04:07:24.735] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Dec2024 04:07:24.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Dec2024 04:07:25.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Dec2024 04:07:25.094] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18Dec2024 04:07:25.223] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18Dec2024 04:07:25.223] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18Dec2024 04:07:25.224] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18Dec2024 04:07:25.224] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18Dec2024 04:07:25.244] [Server thread/INFO] [Cold Sweat/]: Loading registries from configs...
+[18Dec2024 04:07:25.246] [Server thread/INFO] [Cold Sweat/]: Loading registries from data resources...
+[18Dec2024 04:07:25.253] [Server thread/INFO] [Cold Sweat/]: Handling registry removals...
+[18Dec2024 04:07:25.256] [Server thread/INFO] [Cold Sweat/]: Loaded 9 insulators:
+[18Dec2024 04:07:25.263] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{"items":["create:netherite_diving_boots","minecraft:netherite_boots"]},"head":{"items":["create:netherite_diving_helmet"]},"chest":{"nbt":{"Air":"1-9999"},"items":["create:netherite_backtank"]},"legs":{"items":["minecraft:netherite_leggings"]}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.1,"operation":"addition"}],"cold_sweat:heat_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.25,"operation":"addition"}]},"required_mods":["create"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{"items":["minecraft:netherite_leggings"]}}
+[18Dec2024 04:07:25.266] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{"items":["create:netherite_diving_boots","minecraft:netherite_boots"]},"head":{"items":["create:netherite_diving_helmet"]},"chest":{"nbt":{"Air":"1-9999"},"items":["create:netherite_backtank"]},"legs":{"items":["minecraft:netherite_leggings"]}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.1,"operation":"addition"}],"cold_sweat:heat_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.25,"operation":"addition"}]},"required_mods":["create"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{"items":["minecraft:netherite_boots"]}}
+[18Dec2024 04:07:25.268] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{"items":["create:netherite_diving_boots","minecraft:netherite_boots"]},"head":{"items":["create:netherite_diving_helmet"]},"chest":{"nbt":{"Air":"1-9999"},"items":["create:netherite_backtank"]},"legs":{"items":["minecraft:netherite_leggings"]}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.1,"operation":"addition"}],"cold_sweat:heat_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.25,"operation":"addition"}]},"required_mods":["create"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{"items":["create:netherite_diving_helmet"]}}
+[18Dec2024 04:07:25.271] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{"items":["create:netherite_diving_boots","minecraft:netherite_boots"]},"head":{"items":["create:netherite_diving_helmet"]},"chest":{"nbt":{"Air":"1-9999"},"items":["create:netherite_backtank"]},"legs":{"items":["minecraft:netherite_leggings"]}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.1,"operation":"addition"}],"cold_sweat:heat_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.25,"operation":"addition"}]},"required_mods":["create"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{"items":["create:netherite_diving_boots"]}}
+[18Dec2024 04:07:25.273] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{},"head":{},"chest":{},"legs":{}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:three_bolt_set_bonus","amount":0.2,"operation":"addition"}]},"immune_temp_modifiers":{"cold_sweat:water":1.0},"required_mods":["aquamirae"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{}}
+[18Dec2024 04:07:25.275] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{"items":["create:netherite_diving_boots","minecraft:netherite_boots"]},"head":{"items":["create:netherite_diving_helmet"]},"chest":{"nbt":{"Air":"1-9999"},"items":["create:netherite_backtank"]},"legs":{"items":["minecraft:netherite_leggings"]}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.1,"operation":"addition"}],"cold_sweat:heat_resistance":[{"name":"cs:netherite_diving_set_bonus","amount":0.25,"operation":"addition"}]},"immune_temp_modifiers":{"cold_sweat:water":1.0},"required_mods":["create"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{"items":["create:netherite_backtank"]}}
+[18Dec2024 04:07:25.276] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{},"head":{},"chest":{},"legs":{}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:three_bolt_set_bonus","amount":0.2,"operation":"addition"}]},"immune_temp_modifiers":{"cold_sweat:water":1.0},"required_mods":["aquamirae"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{}}
+[18Dec2024 04:07:25.277] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{},"head":{},"chest":{},"legs":{}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:three_bolt_set_bonus","amount":0.2,"operation":"addition"}]},"immune_temp_modifiers":{"cold_sweat:water":1.0},"required_mods":["aquamirae"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{}}
+[18Dec2024 04:07:25.278] [Server thread/INFO] [Cold Sweat/]: InsulatorData{"entity":{"equipment":{"feet":{},"head":{},"chest":{},"legs":{}}},"attributes":{"cold_sweat:cold_resistance":[{"name":"cs:three_bolt_set_bonus","amount":0.2,"operation":"addition"}]},"immune_temp_modifiers":{"cold_sweat:water":1.0},"required_mods":["aquamirae"],"type":"armor","insulation":{"cold":0.0,"heat":0.0},"data":{}}
+[18Dec2024 04:07:25.279] [Server thread/INFO] [Cold Sweat/]: Loaded 0 fuels.
+[18Dec2024 04:07:25.281] [Server thread/INFO] [Cold Sweat/]: Loaded 0 foods.
+[18Dec2024 04:07:25.283] [Server thread/INFO] [Cold Sweat/]: Loaded 0 carried item temperatures.
+[18Dec2024 04:07:25.284] [Server thread/INFO] [Cold Sweat/]: Loaded 0 block temperatures.
+[18Dec2024 04:07:25.285] [Server thread/INFO] [Cold Sweat/]: Loaded 0 biome temperatures.
+[18Dec2024 04:07:25.286] [Server thread/INFO] [Cold Sweat/]: Loaded 0 dimension temperatures.
+[18Dec2024 04:07:25.287] [Server thread/INFO] [Cold Sweat/]: Loaded 0 structure temperatures.
+[18Dec2024 04:07:25.287] [Server thread/INFO] [Cold Sweat/]: Loaded 1 depth temperatures:
+[18Dec2024 04:07:25.289] [Server thread/INFO] [Cold Sweat/]: DepthTempData{"regions":[{"top":{"depth":2147483647,"temperature":NaN},"bottom":{"anchor":"world_top","depth":1,"temperature":NaN}},{"top":{"anchor":"world_top","depth":0,"temperature":NaN},"bottom":{"anchor":"ground_level","depth":0,"temperature":NaN}},{"type":"linear","top":{"anchor":"ground_level","depth":-1,"temperature":NaN},"bottom":{"anchor":"ground_level","depth":-20,"units":"f","temperature":75.0}},{"type":"logarithmic","top":{"anchor":"ground_level","depth":-21,"units":"f","temperature":75.0},"bottom":{"anchor":"world_bottom","depth":1,"units":"f","temperature":90.0}},{"type":"linear","top":{"anchor":"world_bottom","depth":0,"units":"f","temperature":90.0},"bottom":{"anchor":"world_bottom","depth":-319,"units":"c","temperature":-273.15}},{"top":{"anchor":"world_bottom","depth":-320,"units":"c","temperature":-273.15},"bottom":{"depth":-2147483648,"units":"c","temperature":-273.15}}],"dimensions":["#forge:overworld_like"]}
+[18Dec2024 04:07:25.291] [Server thread/INFO] [Cold Sweat/]: Loaded 0 insulated mounts.
+[18Dec2024 04:07:25.291] [Server thread/INFO] [Cold Sweat/]: Loaded 0 entity spawn biomes.
+[18Dec2024 04:07:25.292] [Server thread/INFO] [Cold Sweat/]: Loaded 0 entity temperatures.
+[18Dec2024 04:07:25.294] [Server thread/INFO] [Cold Sweat/]: Loading TOML configs...
+[18Dec2024 04:07:25.317] [Server thread/INFO] [Cold Sweat/]: Loading BlockTemps...
+[18Dec2024 04:07:25.337] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Dec2024 04:07:25.339] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Dec2024 04:07:25.671] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[18Dec2024 04:07:25.673] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[18Dec2024 04:07:25.674] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[18Dec2024 04:07:25.674] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[18Dec2024 04:07:25.675] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[18Dec2024 04:07:25.677] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[18Dec2024 04:07:25.678] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[18Dec2024 04:07:25.678] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[18Dec2024 04:07:25.680] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[18Dec2024 04:07:25.681] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[18Dec2024 04:07:26.044] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18Dec2024 04:07:26.045] [Server thread/INFO] [unionlib/]: Initializing mod on server: unionlib
+[18Dec2024 04:07:40.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Dec2024 04:07:49.903] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.928] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.930] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.931] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.932] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.933] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.934] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.936] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.937] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.940] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.941] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.942] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.946] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.956] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.960] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.965] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.969] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.974] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:49.980] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:50.258] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:50.760] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:51.262] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:51.757] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:52.259] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Dec2024 04:07:52.622] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11865 ms
+[18Dec2024 04:07:52.623] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (27.381s)! For help, type "help"
+[18Dec2024 04:07:52.678] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18Dec2024 04:07:52.693] [Server thread/INFO] [puffish_skills/]: [puffish_skills] Mod configuration loaded successfully!
+[18Dec2024 04:08:28.509] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Patobich007[/100.115.126.114:51486] logged in with entity id 1 at (323.48345099718625, 70.0, 2699.4501523276385)
+[18Dec2024 04:08:28.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 joined the game
+[18Dec2024 04:08:33.246] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 80037c9f-7b54-34e5-bbe7-116486a4c0d5 was loaded
+[18Dec2024 04:08:33.256] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4897ms or 97 ticks behind
+[18Dec2024 04:08:59.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was slain by Infected Hazmat
+[18Dec2024 04:09:03.971] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2262ms or 45 ticks behind
+[18Dec2024 04:10:06.495] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/466, l='ServerLevel[Amberlight City v2 Apocalypse]', x=322.89, y=70.96, z=2717.25] died: Zombie Player was slain by Patobich007
+[18Dec2024 04:15:09.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 froze to death
+[18Dec2024 04:16:25.434] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Peshino2021[/100.85.151.48:56398] logged in with entity id 3272 at (304.3210606837915, 71.0, 2712.3269113049387)
+[18Dec2024 04:16:25.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 joined the game
+[18Dec2024 04:16:26.821] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of a11d13dd-df9d-3a56-8a35-e7fec2d1b7fd was loaded
+[18Dec2024 04:16:48.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was slain by Assasin Black Ops
+[18Dec2024 04:17:04.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Set the time to 1000]
+[18Dec2024 04:17:07.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 was slain by Assasin Black Ops
+[18Dec2024 04:17:12.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Set own game mode to Creative Mode]
+[18Dec2024 04:17:32.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Set season to Late Spring]
+[18Dec2024 04:17:40.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Set the weather to clear]
+[18Dec2024 04:17:44.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
+[18Dec2024 04:18:20.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Set own game mode to Survival Mode]
+[18Dec2024 04:18:52.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 04:18:59.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Set the time to 1000]
+[18Dec2024 04:19:09.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Set the weather to clear]
+[18Dec2024 04:20:52.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 has made the advancement [Getting an Upgrade]
+[18Dec2024 04:26:49.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 has made the advancement [Stone Age]
+[18Dec2024 04:27:09.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 has made the advancement [Getting an Upgrade]
+[18Dec2024 04:38:46.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 died
+[18Dec2024 04:38:53.701] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
+[18Dec2024 04:39:09.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 04:40:50.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 fell from a high place
+[18Dec2024 04:40:58.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
+[18Dec2024 04:40:58.599] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Peshino2021'/9656, l='ServerLevel[Amberlight City v2 Apocalypse]', x=405.30, y=64.00, z=2875.73] died: Zombie Player was slain by Patobich007
+[18Dec2024 04:44:52.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was slain by Peshino2021
+[18Dec2024 04:44:59.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 04:45:15.876] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/10612, l='ServerLevel[Amberlight City v2 Apocalypse]', x=442.51, y=18.00, z=2904.41] died: Zombie Player was slain by Peshino2021
+[18Dec2024 04:45:30.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 has made the advancement [Acquire Hardware]
+[18Dec2024 04:45:47.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 has made the advancement [Acquire Hardware]
+[18Dec2024 04:46:07.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 has made the advancement [Isn't It Iron Pick]
+[18Dec2024 04:54:37.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 04:55:00.327] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patobich007 lost connection: Disconnected
+[18Dec2024 04:55:00.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 left the game
+[18Dec2024 04:55:00.334] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 80037c9f-7b54-34e5-bbe7-116486a4c0d5 was unloaded
+[18Dec2024 04:55:37.315] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Peshino2021 lost connection: Disconnected
+[18Dec2024 04:55:37.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 left the game
+[18Dec2024 04:55:37.316] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of a11d13dd-df9d-3a56-8a35-e7fec2d1b7fd was unloaded
+[18Dec2024 04:55:38.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[18Dec2024 04:55:38.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Dec2024 04:55:38.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Dec2024 04:55:38.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Dec2024 04:55:41.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Amberlight City v2 Apocalypse]'/minecraft:overworld
+[18Dec2024 04:55:42.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Amberlight City v2 Apocalypse]'/minecraft:the_nether
+[18Dec2024 04:55:42.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Amberlight City v2 Apocalypse]'/lostcities:lostcity
+[18Dec2024 04:55:42.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Amberlight City v2 Apocalypse]'/minecraft:the_end
+[18Dec2024 04:55:42.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18Dec2024 04:55:42.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Dec2024 04:55:42.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[18Dec2024 04:55:42.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Dec2024 04:55:42.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18Dec2024 04:55:42.579] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
