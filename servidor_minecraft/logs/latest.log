@@ -1371,3 +1371,30 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [18Dec2024 19:08:59.036] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge.swimSpeed'
 [18Dec2024 19:08:59.036] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge.swimSpeed'
 [18Dec2024 19:08:59.036] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge.swimSpeed'
+[18Dec2024 19:11:19.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was slain by Zombie
+[18Dec2024 19:11:23.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 19:11:46.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 was burnt to a crisp whilst fighting Night Hunter
+[18Dec2024 19:11:46.679] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Peshino2021 moved wrongly!
+[18Dec2024 19:11:51.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
+[18Dec2024 19:12:06.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 burned to death
+[18Dec2024 19:12:10.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 19:12:37.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 burned to death
+[18Dec2024 19:12:40.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
+[18Dec2024 19:12:55.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was slain by Night Hunter
+[18Dec2024 19:12:55.966] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/26031, l='ServerLevel[Amberlight City v2 Apocalypse]', x=277.98, y=71.00, z=-517.50] died: Zombie Player was slain by Revived
+[18Dec2024 19:13:02.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 19:14:06.903] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/26349, l='ServerLevel[Amberlight City v2 Apocalypse]', x=314.08, y=70.00, z=-493.97] died: Zombie Player was burnt to a crisp whilst fighting Patobich007
+[18Dec2024 19:14:16.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was killed trying to hurt Zombie Player
+[18Dec2024 19:14:20.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 19:14:24.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 burned to death
+[18Dec2024 19:14:28.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
+[18Dec2024 19:14:50.017] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/26657, l='ServerLevel[Amberlight City v2 Apocalypse]', x=333.52, y=70.00, z=-524.83] died: Zombie Player was slain by Peshino2021
+[18Dec2024 19:14:53.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/25713, l='ServerLevel[Amberlight City v2 Apocalypse]', x=334.08, y=70.00, z=-521.14] died: Zombie Player was slain by Peshino2021
+[18Dec2024 19:15:26.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was slain by Peshino2021
+[18Dec2024 19:15:32.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 19:15:38.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was slain by Zombie Player
+[18Dec2024 19:15:44.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 19:15:50.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/27139, l='ServerLevel[Amberlight City v2 Apocalypse]', x=329.30, y=70.00, z=-521.70] died: Zombie Player was slain by Peshino2021
+[18Dec2024 19:15:54.365] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/27216, l='ServerLevel[Amberlight City v2 Apocalypse]', x=329.30, y=70.17, z=-521.30] died: Zombie Player was slain by Peshino2021
+[18Dec2024 19:17:21.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was slain by Fetus
+[18Dec2024 19:17:31.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
