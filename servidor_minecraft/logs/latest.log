@@ -1406,3 +1406,11 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [18Dec2024 19:39:38.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 has made the advancement [Cover Me with Diamonds]
 [18Dec2024 19:39:59.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 has made the advancement [Diamonds!]
 [18Dec2024 19:40:08.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 has made the advancement [Cover Me with Diamonds]
+[18Dec2024 19:43:25.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 was slain by Patobich007
+[18Dec2024 19:43:41.597] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Peshino2021'/36376, l='ServerLevel[Amberlight City v2 Apocalypse]', x=-108.70, y=76.00, z=-447.31] died: Zombie Player was slain by Patobich007
+[18Dec2024 19:43:52.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 was slain by Patobich007
+[18Dec2024 19:44:12.048] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Peshino2021'/36559, l='ServerLevel[Amberlight City v2 Apocalypse]', x=-107.49, y=76.00, z=-443.25] died: Zombie Player was slain by Patobich007
+[18Dec2024 19:51:26.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 was slain by Patobich007
+[18Dec2024 19:51:30.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
+[18Dec2024 19:51:36.625] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Peshino2021'/39092, l='ServerLevel[Amberlight City v2 Apocalypse]', x=340.71, y=70.00, z=-343.11] died: Zombie Player was slain by Patobich007
+[18Dec2024 19:51:50.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was shot by Peshino2021
