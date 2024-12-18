@@ -1703,6 +1703,7 @@
       "cooked_mutton": "2024-12-18 04:39:17 +0000",
       "cooked_beef": "2024-12-18 19:26:20 +0000",
       "apple": "2024-12-18 03:50:37 +0000",
+      "cooked_cod": "2024-12-18 19:49:00 +0000",
       "mutton": "2024-12-18 18:07:40 +0000",
       "golden_apple": "2024-12-16 16:20:15 +0000",
       "rotten_flesh": "2024-12-18 04:39:21 +0000",
@@ -4347,6 +4348,12 @@
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2024-12-18 19:47:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-12-18 19:48:05 +0000"
     },
     "done": true
   },

@@ -1134,6 +1134,7 @@
       "beef": "2024-12-18 18:57:11 +0000",
       "porkchop": "2024-12-18 18:03:24 +0000",
       "apple": "2024-12-18 04:43:46 +0000",
+      "pumpkin_pie": "2024-12-18 19:48:27 +0000",
       "mutton": "2024-12-18 18:20:49 +0000",
       "cooked_chicken": "2024-12-18 19:34:12 +0000"
     },
@@ -3455,6 +3456,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/netherite_arrow": {
+    "criteria": {
+      "has_bow": "2024-12-18 19:51:37 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/appliances/copper_diving_helmet": {
     "criteria": {
       "has_item": "2024-12-18 19:28:51 +0000"
@@ -3572,6 +3579,12 @@
   "spartanweaponry:recipes/copper_scythe": {
     "criteria": {
       "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-18 19:51:37 +0000"
     },
     "done": true
   },
@@ -3791,6 +3804,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/redstone/reinforced_dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-18 19:51:37 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/fluid_valve": {
     "criteria": {
       "has_item": "2024-12-18 19:28:51 +0000"
@@ -3866,6 +3885,12 @@
   "minecraft:recipes/misc/lapis_lazuli": {
     "criteria": {
       "has_lapis_block": "2024-12-18 19:37:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-12-18 19:47:52 +0000"
     },
     "done": true
   },

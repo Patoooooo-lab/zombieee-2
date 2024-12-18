@@ -1414,3 +1414,14 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [18Dec2024 19:51:30.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
 [18Dec2024 19:51:36.625] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Peshino2021'/39092, l='ServerLevel[Amberlight City v2 Apocalypse]', x=340.71, y=70.00, z=-343.11] died: Zombie Player was slain by Patobich007
 [18Dec2024 19:51:50.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was shot by Peshino2021
+[18Dec2024 19:52:05.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 19:52:10.564] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/39325, l='ServerLevel[Amberlight City v2 Apocalypse]', x=318.19, y=70.00, z=-357.34] died: Zombie Player was shot by Peshino2021
+[18Dec2024 19:52:25.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 was shot by Patobich007
+[18Dec2024 19:52:29.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
+[18Dec2024 19:52:30.865] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Peshino2021'/39675, l='ServerLevel[Amberlight City v2 Apocalypse]', x=323.66, y=70.79, z=-361.65] died: Zombie Player was shot by Patobich007
+[18Dec2024 19:58:08.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was shot by Peshino2021
+[18Dec2024 19:58:51.621] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/41674, l='ServerLevel[Amberlight City v2 Apocalypse]', x=304.79, y=70.00, z=-442.49] died: Zombie Player was slain by Patobich007
+[18Dec2024 20:01:32.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 was slain by Patobich007
+[18Dec2024 20:01:32.609] [Server thread/ERROR] [sophisticatedbackpacks/]: Error getting backpack wrapper - Unable to find backpack at slot index 0 in "curios" inventory handler
+[18Dec2024 20:01:37.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
+[18Dec2024 20:01:59.665] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Peshino2021'/42805, l='ServerLevel[Amberlight City v2 Apocalypse]', x=331.10, y=70.20, z=-557.00] died: Zombie Player was slain by Patobich007
