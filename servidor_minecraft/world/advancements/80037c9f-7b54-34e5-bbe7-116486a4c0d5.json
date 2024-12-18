@@ -1134,7 +1134,8 @@
       "beef": "2024-12-18 18:57:11 +0000",
       "porkchop": "2024-12-18 18:03:24 +0000",
       "apple": "2024-12-18 04:43:46 +0000",
-      "mutton": "2024-12-18 18:20:49 +0000"
+      "mutton": "2024-12-18 18:20:49 +0000",
+      "cooked_chicken": "2024-12-18 19:34:12 +0000"
     },
     "done": false
   },
@@ -3334,9 +3335,27 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/steam_whistle": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_birch_sign_item": {
     "criteria": {
       "has_sign": "2024-12-18 18:44:13 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_battle_hammer": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/copper_backtank": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
     },
     "done": true
   },
@@ -3346,9 +3365,21 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/copper_boomerang": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2024-12-18 18:42:05 +0000"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2024-12-18 19:28:51 +0000"
     },
     "done": true
   },
@@ -3364,6 +3395,18 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/copper_glaive": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/steam_engine": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2024-12-18 18:27:52 +0000"
@@ -3373,6 +3416,12 @@
   "securitycraft:recipes/building_blocks/secret_warped_hanging_sign": {
     "criteria": {
       "has_sign": "2024-12-18 18:44:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
     },
     "done": true
   },
@@ -3388,15 +3437,45 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/copper_tiles_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/copper_diving_helmet": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_crimson_sign_item": {
     "criteria": {
       "has_sign": "2024-12-18 18:44:13 +0000"
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/fluid_pipe_vertical": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_acacia_sign_item": {
     "criteria": {
       "has_sign": "2024-12-18 18:44:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_pump": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
     },
     "done": true
   },
@@ -3418,6 +3497,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/copper_diving_boots": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_crimson_hanging_sign": {
     "criteria": {
       "has_sign": "2024-12-18 18:44:13 +0000"
@@ -3430,15 +3521,45 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/copper_dagger": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2024-12-18 18:42:05 +0000"
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/copper_valve_handle": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_heavy_crossbow": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_flanged_mace": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2024-12-18 18:44:14 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_scythe": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
     },
     "done": true
   },
@@ -3454,15 +3575,33 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/smart_fluid_pipe": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2024-12-18 18:01:29 +0000"
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/copper_valve_handle_from_others": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_acacia_hanging_sign": {
     "criteria": {
       "has_sign": "2024-12-18 18:44:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/copper_bars_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2024-12-18 19:28:51 +0000"
     },
     "done": true
   },
@@ -3508,6 +3647,12 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/materials/copper_nugget": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/tree_fertilizer": {
     "criteria": {
       "has_item": "2024-12-18 19:26:15 +0000"
@@ -3520,9 +3665,33 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/copper_warhammer": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2024-12-18 18:42:05 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/copper_shingles_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_pipe": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_battleaxe": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
     },
     "done": true
   },
@@ -3538,9 +3707,33 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/copper_quarterstaff": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_greatsword": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_lance": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_dark_oak_sign_item": {
     "criteria": {
       "has_sign": "2024-12-18 18:44:13 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_javelin": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
     },
     "done": true
   },
@@ -3568,15 +3761,69 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/copper_tomahawk": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_pike": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_valve": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/copper_ladder_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_spear": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_bamboo_hanging_sign": {
     "criteria": {
       "has_sign": "2024-12-18 18:44:13 +0000"
     },
     "done": true
   },
+  "spartanweaponry:recipes/copper_parrying_dagger": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_halberd": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_katana": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_cherry_sign_item": {
     "criteria": {
       "has_sign": "2024-12-18 18:44:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/copper_scaffolding_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2024-12-18 19:28:51 +0000"
     },
     "done": true
   },
@@ -3598,15 +3845,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2024-12-18 19:37:25 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/copper_backpack": {
     "criteria": {
       "has_backpack": "2024-12-18 18:14:45 +0000"
     },
     "done": true
   },
+  "spartanweaponry:recipes/copper_longbow": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/hose_pulley": {
+    "criteria": {
+      "has_item": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_longsword": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_saber": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_rapier": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_bamboo_sign_item": {
     "criteria": {
       "has_sign": "2024-12-18 18:44:13 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_throwing_knife": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-18 19:28:51 +0000"
     },
     "done": true
   },
