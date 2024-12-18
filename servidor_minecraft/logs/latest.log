@@ -1425,3 +1425,24 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [18Dec2024 20:01:32.609] [Server thread/ERROR] [sophisticatedbackpacks/]: Error getting backpack wrapper - Unable to find backpack at slot index 0 in "curios" inventory handler
 [18Dec2024 20:01:37.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
 [18Dec2024 20:01:59.665] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Peshino2021'/42805, l='ServerLevel[Amberlight City v2 Apocalypse]', x=331.10, y=70.20, z=-557.00] died: Zombie Player was slain by Patobich007
+[18Dec2024 20:03:03.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was slain by Peshino2021
+[18Dec2024 20:03:33.961] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Peshino2021 lost connection: Disconnected
+[18Dec2024 20:03:33.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 left the game
+[18Dec2024 20:03:33.962] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of a11d13dd-df9d-3a56-8a35-e7fec2d1b7fd was unloaded
+[18Dec2024 20:03:34.113] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patobich007 lost connection: Disconnected
+[18Dec2024 20:03:34.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 left the game
+[18Dec2024 20:03:34.114] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 80037c9f-7b54-34e5-bbe7-116486a4c0d5 was unloaded
+[18Dec2024 20:03:50.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[18Dec2024 20:03:50.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Dec2024 20:03:50.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Dec2024 20:03:50.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Dec2024 20:03:50.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Amberlight City v2 Apocalypse]'/minecraft:overworld
+[18Dec2024 20:03:52.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Amberlight City v2 Apocalypse]'/lostcities:lostcity
+[18Dec2024 20:03:52.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Amberlight City v2 Apocalypse]'/minecraft:the_nether
+[18Dec2024 20:03:52.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Amberlight City v2 Apocalypse]'/minecraft:the_end
+[18Dec2024 20:03:53.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18Dec2024 20:03:53.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[18Dec2024 20:03:53.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Dec2024 20:03:53.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Dec2024 20:03:53.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18Dec2024 20:03:53.193] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
