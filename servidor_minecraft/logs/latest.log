@@ -1005,3 +1005,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [18Dec2024 18:06:15.507] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
 [18Dec2024 18:06:19.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
 [18Dec2024 18:10:14.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
+[18Dec2024 18:18:53.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 has made the advancement [Hot Stuff]
+[18Dec2024 18:18:55.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Peshino2021 to Patobich007]
