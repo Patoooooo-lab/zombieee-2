@@ -1398,3 +1398,4 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [18Dec2024 19:15:54.365] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Patobich007'/27216, l='ServerLevel[Amberlight City v2 Apocalypse]', x=329.30, y=70.17, z=-521.30] died: Zombie Player was slain by Peshino2021
 [18Dec2024 19:17:21.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Patobich007 was slain by Fetus
 [18Dec2024 19:17:31.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Peshino2021: Teleported Patobich007 to Peshino2021]
+[18Dec2024 19:23:20.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Peshino2021 has made the advancement [Isn't It Iron Pick]
